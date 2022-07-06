@@ -12,20 +12,8 @@
 </url>
 	
 <url>
-  <loc>https://www.jacovip.com/things-to-do-jaco-costa-rica.html</loc>
-  <lastmod>2021-04-21</lastmod>
-  <priority>0.80</priority>
-</url>
-	
-<url>
-  <loc>https://www.jacovip.com/all-inclusive-vacation-packages.html</loc>
-  <lastmod>2020-09-29</lastmod>
-  <priority>0.70</priority>
-</url>
-	
-<url>
   <loc>https://www.jacovip.com/JacoBeachVacationRentals.html</loc>
-  <lastmod>2021-10-06</lastmod>
+  <lastmod>2022-06-23</lastmod>
   <priority>0.90</priority>
 </url>
 	
@@ -61,13 +49,13 @@
 	
 <url>
   <loc>https://www.jacovip.com/PartyLikeARockStar.html</loc>
-  <lastmod>2021-10-14</lastmod>
+  <lastmod>2022-04-19</lastmod>
   <priority>0.80</priority>
 </url>
-	
+
 <url>
-  <loc>https://www.jacovip.com/costa-rica-vacation-services.html</loc>
-  <lastmod>2021-04-21</lastmod>
+  <loc>https://www.jacovip.com/republik-jaco.html</loc>
+  <lastmod>2022-04-19</lastmod>
   <priority>0.80</priority>
 </url>
 	
@@ -90,8 +78,8 @@
 </url>
 	
 <url>
-  <loc>https://www.jacovip.com/JacoBeachVacationRentals/CasaPonteBeach.html</loc>
-  <lastmod>2021-06-27</lastmod>
+  <loc>https://www.jacovip.com/JacoBeachVacationRentals/Villa-Del-Rey.html</loc>
+  <lastmod>2022-01-27</lastmod>
   <priority>0.60</priority>
 </url>
 	
@@ -145,12 +133,6 @@
 	
 <url>
   <loc>https://www.jacovip.com/JacoBeachVacationRentals/NorthBeachVilla.html</loc>
-  <lastmod>2021-04-21</lastmod>
-  <priority>0.64</priority>
-</url>
-	
-<url>
-  <loc>https://www.jacovip.com/JacoBeachVacationRentals/Blue-Marlin-1.html</loc>
   <lastmod>2021-04-21</lastmod>
   <priority>0.64</priority>
 </url>
@@ -213,7 +195,8 @@
   <loc>https://www.jacovip.com/JacoBeachVacationRentals/Casa-Toucan.html</loc>
   <lastmod>2021-06-27</lastmod>
   <priority>0.64</priority>
-</url>		
+</url>
+	
 <url>	
   <loc>https://www.jacovip.com/JacoBeachVacationRentals/Casa-Cinco.html</loc>
   <lastmod>2021-04-21</lastmod>
@@ -246,8 +229,8 @@
 	
 <url>
   <loc>https://www.jacovip.com/Hotel-Cocal-Jaco-CostaRica.html</loc>
-  <lastmod>2021-10-06</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2022-01-31</lastmod>
+  <priority>0.85</priority>
 </url>	
 	
 <url>
@@ -279,12 +262,6 @@
   <lastmod>2020-05-30</lastmod>
   <priority>0.64</priority>
 </url>
-		
-<url>
-  <loc>https://www.jacovip.com/travel-info-costa-rica.html</loc>
-  <lastmod>2021-04-21</lastmod>
-  <priority>0.80</priority>
-</url>
 	
 <url>
   <loc>https://www.jacovip.com/costa-rica-fishing-calendar.html</loc>
@@ -300,15 +277,22 @@
 	
 <url>
   <loc>https://www.jacovip.com/JacoBeachToursCostaRica.html</loc>
-  <lastmod>2021-12-09</lastmod>
+  <lastmod>2022-04-26</lastmod>
   <priority>0.80</priority>
 </url>
 	
 <url>
   <loc>https://www.jacovip.com/jaco-zip-line-and-hanging-bridges.html</loc>
-  <lastmod>2021-12-09</lastmod>
+  <lastmod>2022-04-26</lastmod>
   <priority>0.75</priority>
-</url>	
+</url>
+	
+<url>
+  <loc>https://www.jacovip.com/jaco-zip-line-atv-combo.html</loc>
+  <lastmod>2022-04-26</lastmod>
+  <priority>0.75</priority>
+</url>
+	
 <url>
   <loc>https://www.jacovip.com/jaco-zipline-canopy-tour-costa-rica.html</loc>
   <lastmod>2021-12-09</lastmod>
@@ -322,8 +306,8 @@
 </url>
 	
 <url>
-  <loc>https://www.jacovip.com/WhiteWaterRaftingCostaRica.html</loc>
-  <lastmod>2020-05-30</lastmod>
+  <loc>https://www.jacovip.com/white-water-rafting.html</loc>
+  <lastmod>2022-02-01</lastmod>
   <priority>0.78</priority>
 </url>
 	
@@ -346,17 +330,63 @@
 </url>
 	
 <url>
+  <loc>https://www.jacovip.com/ManuelAntonio_CostaRica.html</loc>
+  <lastmod>2020-05-30</lastmod>
+  <priority>0.60</priority>
+</url>
+	
+<url>
   <loc>https://www.jacovip.com/JacoPartyBoatCostaRica.html</loc>
-  <lastmod>2021-10-06</lastmod>
+  <lastmod>2022-04-01</lastmod>
+  <priority>0.76</priority>
+</url>
+	
+<url>
+  <loc>https://www.jacovip.com/39-catamaran-charter.html</loc>
+  <lastmod>2022-06-18</lastmod>
+  <priority>0.69</priority>
+</url>
+
+<url>
+  <loc>https://www.jacovip.com/40-catamaran-sailboat-charter.html</loc>
+  <lastmod>2022-04-01</lastmod>
+  <priority>0.69</priority>
+</url>
+
+<url>
+  <loc>https://www.jacovip.com/50-custom-party-boat.html</loc>
+  <lastmod>2022-04-01</lastmod>
+  <priority>0.69</priority>
+</url>
+
+<url>
+  <loc>https://www.jacovip.com/55-hatteras-party-boat.html</loc>
+  <lastmod>2022-04-01</lastmod>
   <priority>0.69</priority>
 </url>
 	
 <url>
-  <loc>https://www.jacovip.com/ManuelAntonio_CostaRica.html</loc>
-  <lastmod>2020-05-30</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.jacovip.com/things-to-do-jaco-costa-rica.html</loc>
+  <lastmod>2022-05-01</lastmod>
+  <priority>0.80</priority>
 </url>
-
-
+	
+<url>
+  <loc>https://www.jacovip.com/costa-rica-vacation-services.html</loc>
+  <lastmod>2022-05-01</lastmod>
+  <priority>0.80</priority>
+</url>
+	
+<url>
+  <loc>https://www.jacovip.com/all-inclusive-vacation-packages.html</loc>
+  <lastmod>2022-05-01</lastmod>
+  <priority>0.70</priority>
+</url>
+	
+<url>
+  <loc>https://www.jacovip.com/travel-info-costa-rica.html</loc>
+  <lastmod>2022-05-01</lastmod>
+  <priority>0.80</priority>
+</url>	
 
 </urlset>

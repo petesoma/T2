@@ -1,8 +1,21 @@
+/*---- Directory ----*/
+	/*---- Root Styles ----*/
+	/*---- Shared Styles ----*/
+	/*---- Homepage Styles ----*/
+	/*---- Other Page Styles ----*/
+	/*---- Other Page Styles ----*/
+	/*---- Other Page Styles ----*/
+
+
+
+
+
+
 /*color css*/
 
 .Apple { color: #66CC33;}
 
-.Darkgreen {color: #006600;} 
+.Darkgreen {color: #006600;}
 
 .DarkPastelGreen{color:#00CC33;}
 
@@ -36,7 +49,7 @@
 
 .SilverTree{color:#6AB791;}
 
-.ForestGreen{color:#339933;}
+.ForestGreen{color:#1D741D;}
 
 .MidnightBlue{ color:#000099;}
 
@@ -51,6 +64,10 @@
 .BlizzardBlue2{ color:#68D3ED;}
 
 .DeepSkyBlue{ color:#00AAFF;}
+
+.DeepSkyBlue2{ color:#033cd7;}
+
+.BluePass{ color:#004EA2;}
 
 .Aqua1 { color:#00EEFF;}
 
@@ -74,7 +91,7 @@
 
 .Black { color:#000000;}
 
-.Nero  {color:#191919;} 
+.Nero  {color:#191919;}
 
 .BlackRussian {color:#000013;}
 
@@ -107,6 +124,17 @@
 .Pink{color: #FC6CFF}
 
 .Purple{color: #84189B}
+
+
+@font-face {
+  font-family: "Roboto";
+  src: url("css/fonts/Roboto/Roboto-Black.ttf")
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+}
+
 
 
 .size0 {    font-size: 10px;}
@@ -142,7 +170,7 @@
 
 .click-here .click-here-box a{ color:#fff; text-decoration:underline; padding: 1px 25px; border: 1px solid #2a2727; width: 100%; font-weight:bold;float: left;}
 
-.click-here .click-here-box .notlink{ color:#fff; padding: 1px 25px; border: 1px solid #2a2727; width: 100%; font-weight:bold;float: left;}
+.click-here .click-here-box .notlink{ color:#BCBCBF; padding: 1px 25px; border: 1px solid #2a2727; width: 100%; font-weight:bold;float: left;}
 
 .not-bold{ font-weight:normal;}
 
@@ -220,7 +248,7 @@ p{ line-height: normal;}
 
 #homepage #top_row2_2 .col-sm-4 {padding-top: 15px;  padding-bottom: 15px;}
 
-#homepage #top_row2 .col-sm-4.border-tb{ border-top: 2px solid #333333; border-bottom: 2px solid #333333;} 
+#homepage #top_row2 .col-sm-4.border-tb{ border-top: 2px solid #333333; border-bottom: 2px solid #333333;}
 
 #homepage #top_row3 {background-color: #282833;}
 
@@ -234,11 +262,11 @@ p{ line-height: normal;}
 
 #homepage #top_row1
 
-#homepage #top_row3{ font-family: Verdana, Geneva, sans-serif;}
+#homepage #top_row3{ font-family:"Rokkit", Verdana, Geneva, sans-serif;}
 
 #homepage #footer_row { /*margin-bottom: 50px;*/}
 
-.border-tbr{ border-top: 2px solid #333333;  border-right: 2px solid #333333; border-bottom: 2px solid #333333;} 
+.border-tbr{ border-top: 2px solid #333333;  border-right: 2px solid #333333; border-bottom: 2px solid #333333;}
 
 #homepage #middle_row1 .col-sm-6,div#bottom_row1 .col-sm-6,div#bottom_row2 .col-sm-6 {    padding: 22px}
 
@@ -253,10 +281,7 @@ p{ line-height: normal;}
 
 
 
-
-
-
-#homepage #middle_row2 { padding-top:10px;} 
+#homepage #middle_row2 { padding-top:10px;}
 
 #homepage #bottom_row3 .col-sm-12.text-center.fullborder { padding: 20px 25px;}
 
@@ -270,9 +295,9 @@ p{ line-height: normal;}
 
 @media screen and (max-width:575px) {
 
-div#logo_head .col-sm-4, div#logo_head .col-sm-2, div#logo_head .col-sm-2{padding-right: 15px !important;    padding-left: 15px !important;     text-align: center !important;}	
+div#logo_head .col-sm-4, div#logo_head .col-sm-2, div#logo_head .col-sm-2{padding-right: 15px !important;    padding-left: 15px !important;     text-align: center !important;}
 
-div#logo_head .col-sm-6{padding-right: 15px !important;    padding-left: 15px !important; }	
+div#logo_head .col-sm-6{padding-right: 15px !important;    padding-left: 15px !important; }
 
 }
 
@@ -481,7 +506,7 @@ p.youtube iframe { padding: 15px;}
 
 	}}
 
-	
+
 
 @media screen and (min-width:550px) and (max-width:651px){
 
@@ -542,7 +567,7 @@ div#nav_mainmenu.navmainmenu img { width: 100%; float: left; padding: 0px 10px;}
 .footer { width: 100%; float: left;}
 
 @media screen and (max-width:575px) {
-.topsectiontable .col-sm-4 {    border-top: 0px solid #9a9a9a;    border-bottom: 0px solid #9a9a9a;    border-right: 0px solid #9a9a9a;    padding-top: 15px;    border-left: 0px solid #9a9a9a;    background-color: #000;     padding-left:10px; padding-right:10px; padding-bottom:0px; } 
+.topsectiontable .col-sm-4 {    border-top: 0px solid #9a9a9a;    border-bottom: 0px solid #9a9a9a;    border-right: 0px solid #9a9a9a;    padding-top: 15px;    border-left: 0px solid #9a9a9a;    background-color: #000;     padding-left:10px; padding-right:10px; padding-bottom:0px; }
 }
 
 @media screen and (min-width:1500px){
@@ -577,7 +602,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 
 /*jacovipadvantage*/
-.jacovip_advantage{ margin:0px; font-family: Verdana, Geneva, sans-serif; width: 100%; /*padding-bottom: 15px;*/float: left;}
+.jacovip_advantage{ margin:0px; font-family: "Roboto", sans-serif; width: 100%; /*padding-bottom: 15px;*/float: left;}
 
 .jacovip_advantage .content_area.bg{ background-color:#000000;}
 
@@ -585,7 +610,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 .jacovip_advantage .row{margin-right: 0px;    margin-left: 0px;}
 
-.jacovip_advantage .header_section, 
+.jacovip_advantage .header_section,
 
 .jacovip_advantage .content_area {    width: 100%;    float: left;}
 
@@ -643,11 +668,11 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 .jacovip_advantage .row.BlackRussian .col-sm-4,
 
-.jacovip_advantage div#advantage_footer .imgthree .col-sm-4 {    text-align: center !important;} 
+.jacovip_advantage div#advantage_footer .imgthree .col-sm-4 {    text-align: center !important;}
 
 .jacovip_advantage .top-1_section{padding: 20px !important; }
 
-.jacovip_advantage div#advantage_main .advantage_rows.row .col-sm-6{ padding-bottom:15px;}	
+.jacovip_advantage div#advantage_main .advantage_rows.row .col-sm-6{ padding-bottom:15px;}
 
 }
 
@@ -655,7 +680,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 .jacovip_advantage .top-1_section{padding: 20px !important; }
 
-.jacovip_advantage div#advantage_main .advantage_rows.row .col-sm-6{ padding-bottom:15px;}	
+.jacovip_advantage div#advantage_main .advantage_rows.row .col-sm-6{ padding-bottom:15px;}
 
 }
 
@@ -789,7 +814,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 #JacoBeachVacationRentals .sliderimages .dwuserEasyRotator{/*width: 920px;*/ height: 290px; position:relative; text-align: left;}
 
-#JacoBeachVacationRentals .sliderimages .erimgMainOneUp, 
+#JacoBeachVacationRentals .sliderimages .erimgMainOneUp,
 
 #JacoBeachVacationRentals .sliderimages .erimgMain_slides,
 
@@ -842,7 +867,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
     border: 0px solid #514f4f;
 }
 
-#JacoBeachVacationRentals .bottom2_rental, 
+#JacoBeachVacationRentals .bottom2_rental,
 
 #JacoBeachVacationRentals .bottom1_rental { /*   width: 95.5%;    margin: 0 auto;    float: none;*/}
 
@@ -914,7 +939,7 @@ body#JacoBeachVacationRentals .row.mt-3.getfree  .col-sm-6.white.pt-3.pb-3 {    
 
 #JacoBeachVacationRentals .toprow2 .col-sm-7 {    padding: 0px 5px !important;}
 
-#JacoBeachVacationRentals .toprow3 .bgcolor{ padding-left: 0px !important;} 
+#JacoBeachVacationRentals .toprow3 .bgcolor{ padding-left: 0px !important;}
 
 #JacoBeachVacationRentals .rental_main .advantage_rows.row .col-sm-6.pl-4 {    padding: 10px 5px !important;}
 
@@ -1126,11 +1151,11 @@ img {vertical-align: middle;}
 
 /*Menu */
 
-div#site_mainmenu {    width: 100%;    float: none;    text-align: center;}
+div#site_mainmenu {    width: 100%;    float: none;    text-align: center;  background-color: #000}
 
-div#site_mainmenu a.nav-item.nav-link:hover, 
+div#site_mainmenu a.nav-item.nav-link:hover,
 
-div#site_mainmenu a.nav-item.nav-link:active, 
+div#site_mainmenu a.nav-item.nav-link:active,
 
 div#site_mainmenu a.nav-item.nav-link.active {    background-color: #000067;}
 
@@ -1170,7 +1195,7 @@ div#carousel-example-1z .carousel-item {    width: 100%;    float: left;}
 
 @media only screen and (max-width: 450px) {
 
-#JacoBeachVacationRentals .rental_main .advantage_rows.row .col-sm-6.pl-4 { padding: 5px !important;}	
+#JacoBeachVacationRentals .rental_main .advantage_rows.row .col-sm-6.pl-4 { padding: 5px !important;}
 
 .size0 { font-size: 17px; }
 
@@ -1284,13 +1309,14 @@ div#costarica_top1 {     width: 100%;    float: left;}
 
 #CostaRicaBachelorParty
 
-#CostaRicaBachelorParty 
+#CostaRicaBachelorParty
 
 #JacoBeachVacationRentals{ padding-bottom:0px;}
 #JacoBeachToursCostaRica .zipline1 p, a, img{    /*float: left;width: 100%;*/}
 #JacoBeachToursCostaRica .zipline1 img{ /*width:100%;*/}
 .ToursCostaRicafooter .AliceBlue{ margin-bottom:0px;}
-#JacoBeachToursCostaRica{ background-color:#000000;}
+#JacoBeachToursCostaRica{ background-color:#252525;}
+#JacoBeachToursCostaRicaMain{ background-color:#000000;}
 #top_row .row{ margin-left:0px; margin-right:0px;}
 #homepage div#top_row{/*border-left: none !important;*//*border-left: unset !important;border-right: none !important;padding-left: 0px !important;padding-right: 0px !important;*/}
 #homepage .homepadding{float: left;width: 100%;background: #000;border-left: 1px solid #666;border-right: 1px solid #666;}
@@ -1428,7 +1454,7 @@ div#costarica_top1 {     width: 100%;    float: left;}
 #faq .header-image1{background-color: rgb(0, 0, 34);margin: 0px 15px;padding-top: 10px;}
 #CrocodileRiverTour{background-color: #000000;font-family: Verdana, Arial, Helvetica, sans-serif !important;}
 #CrocodileRiverTour .CrocodileRiverTour_container{background-color: #000;}
-#CrocodileRiverTour .row{margin-left:0px; margin-right:0px;} 
+#CrocodileRiverTour .row{margin-left:0px; margin-right:0px;}
 /*16-10-19*/
 #CrocodileRiverTour .jacozipline{padding-top: 30px;}
 #CrocodileRiverTour #crocodile-header{padding-bottom: 10px;}
@@ -1663,9 +1689,9 @@ div#costarica_top1 {     width: 100%;    float: left;}
 #ManuelAntonio_CostaRica .ManuelAntonio_CostaRica-container{background-color: #000;}
 #ManuelAntonio_CostaRica .row{margin-left: 0px;margin-right: 0px;}
 #ManuelAntonio_CostaRica #ManuelAntonio_CostaRica-header .ManuelAntonio_CostaRica{padding-top: 30px;}
-#ManuelAntonio_CostaRica .topcontent1 .row{padding-bottom: 19px !important;padding-top: 9px !important;margin: 0 auto !important;width: 93%;float: none;background-color: rgb(19, 19, 19);} 
-#ManuelAntonio_CostaRica .topcontent2 .row{padding-bottom: 19px !important;padding-top: 9px !important;margin: 0 auto !important;width: 93%;float: none;background-color: rgb(19, 19, 19);} 
-#ManuelAntonio_CostaRica .topcontent3 .row{padding-bottom: 19px !important;padding-top: 9px !important;margin: 0 auto !important;width: 93%;float: none;background-color: rgb(19, 19, 19);} 
+#ManuelAntonio_CostaRica .topcontent1 .row{padding-bottom: 19px !important;padding-top: 9px !important;margin: 0 auto !important;width: 93%;float: none;background-color: rgb(19, 19, 19);}
+#ManuelAntonio_CostaRica .topcontent2 .row{padding-bottom: 19px !important;padding-top: 9px !important;margin: 0 auto !important;width: 93%;float: none;background-color: rgb(19, 19, 19);}
+#ManuelAntonio_CostaRica .topcontent3 .row{padding-bottom: 19px !important;padding-top: 9px !important;margin: 0 auto !important;width: 93%;float: none;background-color: rgb(19, 19, 19);}
 #ManuelAntonio_CostaRica #ManuelAntonio_CostaRica-header{    padding-bottom: 15px;}
 #ManuelAntonio_CostaRica .minibike-tour{padding-top: 10px;padding-left: 30px;}
 #ManuelAntonio_CostaRica .location .zipline2{padding-top: 30px;}
@@ -1704,7 +1730,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CieloAzul_page .green_season, #CieloAzul_page .high_season, #CieloAzul_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CieloAzul_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CieloAzul_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CieloAzul_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CieloAzul_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CieloAzul_page .main_content .pls_note div {    padding-left: 10px;}
 #CieloAzul_page .main_content .hr {    width: 100%;    float: left;}
 #CieloAzul_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1714,7 +1740,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CieloAzul_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CieloAzul_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CieloAzul_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CieloAzul_page .main_content .mid-text div {    margin-left:20px; } 
+#CieloAzul_page .main_content .mid-text div {    margin-left:20px; }
 #CieloAzul_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CieloAzul_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CieloAzul_page .main_content .details_txt div, #CieloAzul_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1723,7 +1749,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #CieloAzul_page .toprow_one .row1, #CieloAzul_page .toprow_one .row2, #CieloAzul_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CieloAzul_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CieloAzul_page .main_content .pls_note,#CieloAzul_page .main_content .details_txt,#CieloAzul_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#CieloAzul_page .main_content .pls_note,#CieloAzul_page .main_content .details_txt,#CieloAzul_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 }
 /*Dulce_Grande page start*/
 #Dulce_Grande_page { width:100%; float:left;}
@@ -1740,7 +1766,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Dulce_Grande_page .green_season, #Dulce_Grande_page .high_season, #Dulce_Grande_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #Dulce_Grande_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #Dulce_Grande_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Dulce_Grande_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Dulce_Grande_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Dulce_Grande_page .main_content .pls_note div {    padding-left: 10px;}
 #Dulce_Grande_page .main_content .hr {    width: 100%;    float: left;}
 #Dulce_Grande_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1750,7 +1776,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Dulce_Grande_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Dulce_Grande_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Dulce_Grande_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Dulce_Grande_page .main_content .mid-text div {    margin-left:20px; } 
+#Dulce_Grande_page .main_content .mid-text div {    margin-left:20px; }
 #Dulce_Grande_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Dulce_Grande_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Dulce_Grande_page .main_content .details_txt div, #Dulce_Grande_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1759,7 +1785,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #Dulce_Grande_page .toprow_one .row1, #Dulce_Grande_page .toprow_one .row2, #Dulce_Grande_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Dulce_Grande_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Dulce_Grande_page .main_content .pls_note,#Dulce_Grande_page .main_content .details_txt,#Dulce_Grande_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#Dulce_Grande_page .main_content .pls_note,#Dulce_Grande_page .main_content .details_txt,#Dulce_Grande_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 }
 /*LaTropicana page start*/
 #LaTropicana_page { width:100%; float:left;}
@@ -1776,7 +1802,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #LaTropicana_page .green_season, #LaTropicana_page .high_season, #LaTropicana_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #LaTropicana_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #LaTropicana_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#LaTropicana_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#LaTropicana_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #LaTropicana_page .main_content .pls_note div {    padding-left: 10px;}
 #LaTropicana_page .main_content .hr {    width: 100%;    float: left;}
 #LaTropicana_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1786,7 +1812,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #LaTropicana_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #LaTropicana_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #LaTropicana_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#LaTropicana_page .main_content .mid-text div {    margin-left:20px; } 
+#LaTropicana_page .main_content .mid-text div {    margin-left:20px; }
 #LaTropicana_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #LaTropicana_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #LaTropicana_page .main_content .details_txt div, #LaTropicana_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1795,7 +1821,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #LaTropicana_page .toprow_one .row1, #LaTropicana_page .toprow_one .row2, #LaTropicana_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #LaTropicana_page .main_content .mid-text div {    margin-left: 0px !important;}
-#LaTropicana_page .main_content .pls_note,#LaTropicana_page .main_content .details_txt,#LaTropicana_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#LaTropicana_page .main_content .pls_note,#LaTropicana_page .main_content .details_txt,#LaTropicana_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 }
 /*DulceSol page start*/
 #DulceSol_page { width:100%; float:left;}
@@ -1812,7 +1838,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #DulceSol_page .green_season, #DulceSol_page .high_season, #DulceSol_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #DulceSol_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #DulceSol_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#DulceSol_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#DulceSol_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #DulceSol_page .main_content .pls_note div {    padding-left: 10px;}
 #DulceSol_page .main_content .hr {    width: 100%;    float: left;}
 #DulceSol_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1822,7 +1848,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #DulceSol_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #DulceSol_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #DulceSol_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#DulceSol_page .main_content .mid-text div {    margin-left:20px; } 
+#DulceSol_page .main_content .mid-text div {    margin-left:20px; }
 #DulceSol_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #DulceSol_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #DulceSol_page .main_content .details_txt div, #DulceSol_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1831,7 +1857,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #DulceSol_page .toprow_one .row1, #DulceSol_page .toprow_one .row2, #DulceSol_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #DulceSol_page .main_content .mid-text div {    margin-left: 0px !important;}
-#DulceSol_page .main_content .pls_note,#DulceSol_page .main_content .details_txt,#DulceSol_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#DulceSol_page .main_content .pls_note,#DulceSol_page .main_content .details_txt,#DulceSol_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 }
 /*Villa-Sea-Esta-Jaco page start*/
 #Villa-Sea-Esta-Jaco_page { width:100%; float:left;}
@@ -1848,7 +1874,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Villa-Sea-Esta-Jaco_page .green_season, #Villa-Sea-Esta-Jaco_page .high_season, #Villa-Sea-Esta-Jaco_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #Villa-Sea-Esta-Jaco_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #Villa-Sea-Esta-Jaco_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Villa-Sea-Esta-Jaco_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Villa-Sea-Esta-Jaco_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Villa-Sea-Esta-Jaco_page .main_content .pls_note div {    padding-left: 10px;}
 #Villa-Sea-Esta-Jaco_page .main_content .hr {    width: 100%;    float: left;}
 #Villa-Sea-Esta-Jaco_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1858,7 +1884,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Villa-Sea-Esta-Jaco_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Villa-Sea-Esta-Jaco_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Villa-Sea-Esta-Jaco_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Villa-Sea-Esta-Jaco_page .main_content .mid-text div {    margin-left:20px; } 
+#Villa-Sea-Esta-Jaco_page .main_content .mid-text div {    margin-left:20px; }
 #Villa-Sea-Esta-Jaco_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Villa-Sea-Esta-Jaco_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Villa-Sea-Esta-Jaco_page .main_content .details_txt div, #Villa-Sea-Esta-Jaco_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1871,7 +1897,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #Villa-Sea-Esta-Jaco_page .toprow_one .row1, #Villa-Sea-Esta-Jaco_page .toprow_one .row2, #Villa-Sea-Esta-Jaco_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Villa-Sea-Esta-Jaco_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Villa-Sea-Esta-Jaco_page .main_content .pls_note,#Villa-Sea-Esta-Jaco_page .main_content .details_txt,#Villa-Sea-Esta-Jaco_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#Villa-Sea-Esta-Jaco_page .main_content .pls_note,#Villa-Sea-Esta-Jaco_page .main_content .details_txt,#Villa-Sea-Esta-Jaco_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #Villa-Sea-Esta-Jaco_page .toprow_one .row.video {    width: 100%; float:left;}
 }
 /*RanchoDeSuenos page start*/
@@ -1889,7 +1915,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #RanchoDeSuenos_page .green_season, #RanchoDeSuenos_page .high_season, #RanchoDeSuenos_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #RanchoDeSuenos_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #RanchoDeSuenos_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#RanchoDeSuenos_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#RanchoDeSuenos_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #RanchoDeSuenos_page .main_content .pls_note p {    padding-left: 10px;}
 #RanchoDeSuenos_page .main_content .hr {    width: 100%;    float: left;}
 #RanchoDeSuenos_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1899,7 +1925,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #RanchoDeSuenos_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #RanchoDeSuenos_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #RanchoDeSuenos_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#RanchoDeSuenos_page .main_content .mid-text div {    margin-left:20px; } 
+#RanchoDeSuenos_page .main_content .mid-text div {    margin-left:20px; }
 #RanchoDeSuenos_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #RanchoDeSuenos_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #RanchoDeSuenos_page .main_content .details_txt div, #RanchoDeSuenos_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1909,14 +1935,14 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #RanchoDeSuenos_page .toprow_one .row.video .col-sm-8{border-right: 1px solid grey;padding: 10px 20px;}
 #RanchoDeSuenos_page .toprow_one .row.video .col-sm-4 {padding: 20px 10px;}
 #RanchoDeSuenos_page .toprow_one .row2 { padding:10px; }
-#RanchoDeSuenos_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#RanchoDeSuenos_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #RanchoDeSuenos_page .toprow_one .row2 .sub_dev p, #RanchoDeSuenos_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #RanchoDeSuenos_page .toprow_one .row1, #RanchoDeSuenos_page .toprow_one .row2, #RanchoDeSuenos_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #RanchoDeSuenos_page .main_content .mid-text div {    margin-left: 0px !important;}
-#RanchoDeSuenos_page .main_content .pls_note,#RanchoDeSuenos_page .main_content .details_txt,#RanchoDeSuenos_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#RanchoDeSuenos_page .main_content .pls_note,#RanchoDeSuenos_page .main_content .details_txt,#RanchoDeSuenos_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #RanchoDeSuenos_page .toprow_one .row.video,#RanchoDeSuenos_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#RanchoDeSuenos_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#RanchoDeSuenos_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #RanchoDeSuenos_page .toprow_one .row2 .sub_dev p, #RanchoDeSuenos_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*SouthBeach_CostaRica page start*/
@@ -1934,7 +1960,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SouthBeach_CostaRica_page .green_season, #SouthBeach_CostaRica_page .high_season, #SouthBeach_CostaRica_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #SouthBeach_CostaRica_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #SouthBeach_CostaRica_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#SouthBeach_CostaRica_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#SouthBeach_CostaRica_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #SouthBeach_CostaRica_page .main_content .pls_note p, #SouthBeach_CostaRica_page .main_content .pls_note div {    padding-left: 10px;}
 #SouthBeach_CostaRica_page .main_content .hr {    width: 100%;    float: left;}
 #SouthBeach_CostaRica_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1944,7 +1970,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SouthBeach_CostaRica_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #SouthBeach_CostaRica_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #SouthBeach_CostaRica_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#SouthBeach_CostaRica_page .main_content .mid-text div {    margin-left:20px; } 
+#SouthBeach_CostaRica_page .main_content .mid-text div {    margin-left:20px; }
 #SouthBeach_CostaRica_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #SouthBeach_CostaRica_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #SouthBeach_CostaRica_page .main_content .details_txt div, #SouthBeach_CostaRica_page .main_content .details_txt p {    padding-left: 15px;}
@@ -1954,14 +1980,14 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SouthBeach_CostaRica_page .toprow_one .row.video .col-sm-8{border-right: 1px solid grey;padding: 10px 20px;}
 #SouthBeach_CostaRica_page .toprow_one .row.video .col-sm-4 {padding: 20px 10px;}
 #SouthBeach_CostaRica_page .toprow_one .row2 { padding:10px; }
-#SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev p, #SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #SouthBeach_CostaRica_page .toprow_one .row1, #SouthBeach_CostaRica_page .toprow_one .row2, #SouthBeach_CostaRica_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #SouthBeach_CostaRica_page .main_content .mid-text div {    margin-left: 0px !important;}
-#SouthBeach_CostaRica_page .main_content .pls_note,#SouthBeach_CostaRica_page .main_content .details_txt,#SouthBeach_CostaRica_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#SouthBeach_CostaRica_page .main_content .pls_note,#SouthBeach_CostaRica_page .main_content .details_txt,#SouthBeach_CostaRica_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #SouthBeach_CostaRica_page .toprow_one .row.video,#SouthBeach_CostaRica_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev p, #SouthBeach_CostaRica_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 #SouthBeach_CostaRica_page .main_content .pls_note p, #SouthBeach_CostaRica_page .main_content .pls_note div {    padding-left: 0px;}
 }
@@ -1983,7 +2009,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #JacoOasis_page .main_content .season_box.row.two_box{width: 100%;float: left;background-color: #191922;border: 1px solid #808080; padding:0px;}
 #JacoOasis_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
 #JacoOasis_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
-#JacoOasis_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#JacoOasis_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #JacoOasis_page .main_content .pls_note div {    padding-left: 10px;}
 #JacoOasis_page .main_content .hr {    width: 100%;    float: left;}
 #JacoOasis_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -1993,7 +2019,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #JacoOasis_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #JacoOasis_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #JacoOasis_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#JacoOasis_page .main_content .mid-text div {    margin-left:20px; } 
+#JacoOasis_page .main_content .mid-text div {    margin-left:20px; }
 #JacoOasis_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #JacoOasis_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #JacoOasis_page .main_content .details_txt div, #JacoOasis_page .main_content .details_txt p {    padding-left: 15px;}
@@ -2005,14 +2031,14 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #JacoOasis_page .toprow_one .row2 {
     padding: 10px 50px 0px 50px;
 }
-#JacoOasis_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#JacoOasis_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #JacoOasis_page .toprow_one .row2 .sub_dev p, #JacoOasis_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #JacoOasis_page .toprow_one .row1, #JacoOasis_page .toprow_one .row2, #JacoOasis_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #JacoOasis_page .main_content .mid-text div {    margin-left: 0px !important;}
-#JacoOasis_page .main_content .pls_note,#JacoOasis_page .main_content .details_txt,#JacoOasis_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#JacoOasis_page .main_content .pls_note,#JacoOasis_page .main_content .details_txt,#JacoOasis_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #JacoOasis_page .toprow_one .row.video,#JacoOasis_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#JacoOasis_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#JacoOasis_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #JacoOasis_page .toprow_one .row2 .sub_dev p, #JacoOasis_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 #JacoOasis_page .main_content .pls_note div {    padding-left: 0px;}
 }
@@ -2037,7 +2063,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCinco_page .main_content .season_box.row.two_box{width: 100%;float: left;background-color: #191922;border: 1px solid #808080; padding:0px;}
 #CasaCinco_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
 #CasaCinco_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
-#CasaCinco_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaCinco_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaCinco_page .main_content .pls_note div {    padding-left: 10px;}
 #CasaCinco_page .main_content .hr {    width: 100%;    float: left;}
 #CasaCinco_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -2047,7 +2073,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCinco_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaCinco_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaCinco_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaCinco_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaCinco_page .main_content .mid-text div {    margin-left:20px; }
 #CasaCinco_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaCinco_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaCinco_page .main_content .details_txt div, #CasaCinco_page .main_content .details_txt p {    padding-left: 15px;}
@@ -2059,14 +2085,14 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCinco_page .toprow_one .row2 {
     padding: 10px 50px 0px 50px;
 }
-#CasaCinco_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaCinco_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaCinco_page .toprow_one .row2 .sub_dev p, #CasaCinco_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaCinco_page .toprow_one .row1, #CasaCinco_page .toprow_one .row2, #CasaCinco_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaCinco_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaCinco_page .main_content .pls_note,#CasaCinco_page .main_content .details_txt,#CasaCinco_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#CasaCinco_page .main_content .pls_note,#CasaCinco_page .main_content .details_txt,#CasaCinco_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #CasaCinco_page .toprow_one .row.video,#CasaCinco_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#CasaCinco_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaCinco_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaCinco_page .toprow_one .row2 .sub_dev p, #CasaCinco_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 #CasaCinco_page .main_content .pls_note div {    padding-left: 0px;}
 }
@@ -2091,7 +2117,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Coconut_page .main_content .season_box.row.two_box{width: 100%;float: left;background-color: #191922;border: 1px solid #808080; padding:0px;}
 #Coconut_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
 #Coconut_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
-#Coconut_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Coconut_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Coconut_page .main_content .pls_note div {    padding-left: 10px;}
 #Coconut_page .main_content .hr {    width: 100%;    float: left;}
 #Coconut_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -2101,7 +2127,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Coconut_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Coconut_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Coconut_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Coconut_page .main_content .mid-text div {    margin-left:20px; } 
+#Coconut_page .main_content .mid-text div {    margin-left:20px; }
 #Coconut_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Coconut_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Coconut_page .main_content .details_txt div, #Coconut_page .main_content .details_txt p {    padding-left: 15px;}
@@ -2113,14 +2139,14 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Coconut_page .toprow_one .row2 {
     padding: 10px 50px 0px 50px;
 }
-#Coconut_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#Coconut_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #Coconut_page .toprow_one .row2 .sub_dev p, #Coconut_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #Coconut_page .toprow_one .row1, #Coconut_page .toprow_one .row2, #Coconut_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Coconut_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Coconut_page .main_content .pls_note,#Coconut_page .main_content .details_txt,#Coconut_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#Coconut_page .main_content .pls_note,#Coconut_page .main_content .details_txt,#Coconut_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #Coconut_page .toprow_one .row.video,#Coconut_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#Coconut_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#Coconut_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #Coconut_page .toprow_one .row2 .sub_dev p, #Coconut_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 #Coconut_page .main_content .pls_note div {    padding-left: 0px;}
 }
@@ -2143,7 +2169,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SerenityPoint_page .green_season, #SerenityPoint_page .high_season, #SerenityPoint_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #SerenityPoint_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #SerenityPoint_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#SerenityPoint_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#SerenityPoint_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #SerenityPoint_page .main_content .pls_note p {    padding-left: 10px;}
 #SerenityPoint_page .main_content .hr {    width: 100%;    float: left;}
 #SerenityPoint_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
@@ -2153,7 +2179,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SerenityPoint_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #SerenityPoint_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #SerenityPoint_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#SerenityPoint_page .main_content .mid-text div {    margin-left:20px; } 
+#SerenityPoint_page .main_content .mid-text div {    margin-left:20px; }
 #SerenityPoint_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #SerenityPoint_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #SerenityPoint_page .main_content .details_txt div, #SerenityPoint_page .main_content .details_txt p {    padding-left: 15px;}
@@ -2163,14 +2189,14 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SerenityPoint_page .toprow_one .row.video .col-sm-8{border-right: 1px solid grey;padding: 10px 20px;}
 #SerenityPoint_page .toprow_one .row.video .col-sm-4 {padding: 20px 10px;}
 #SerenityPoint_page .toprow_one .row2 { padding:10px; }
-#SerenityPoint_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#SerenityPoint_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #SerenityPoint_page .toprow_one .row2 .sub_dev p, #SerenityPoint_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #SerenityPoint_page .toprow_one .row1, #SerenityPoint_page .toprow_one .row2, #SerenityPoint_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #SerenityPoint_page .main_content .mid-text div {    margin-left: 0px !important;}
-#SerenityPoint_page .main_content .pls_note,#SerenityPoint_page .main_content .details_txt,#SerenityPoint_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#SerenityPoint_page .main_content .pls_note,#SerenityPoint_page .main_content .details_txt,#SerenityPoint_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 #SerenityPoint_page .toprow_one .row.video,#SerenityPoint_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#SerenityPoint_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#SerenityPoint_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #SerenityPoint_page .toprow_one .row2 .sub_dev p, #SerenityPoint_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*SerenityPoint page end*/
@@ -2189,7 +2215,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #casamirobajo_page .green_season, #casamirobajo_page .high_season, #casamirobajo_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #casamirobajo_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #casamirobajo_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#casamirobajo_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#casamirobajo_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #casamirobajo_page .main_content .pls_note div {    padding-left: 10px;}
 #casamirobajo_page .main_content .hr {    width: 100%;    float: left;}
 #casamirobajo_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2199,19 +2225,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #casamirobajo_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #casamirobajo_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #casamirobajo_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#casamirobajo_page .main_content .mid-text div {    margin-left:20px; } 
+#casamirobajo_page .main_content .mid-text div {    margin-left:20px; }
 #casamirobajo_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #casamirobajo_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #casamirobajo_page .main_content .details_txt div, #casamirobajo_page .main_content .details_txt p {    padding-left: 15px;}
 #casamirobajo_page .main_content .bed_text div, #casamirobajo_page .main_content .bed_text p {    padding-left: 15px;}
 #casamirobajo_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#casamirobajo_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#casamirobajo_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #casamirobajo_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #casamirobajo_page .toprow_one .row1, #casamirobajo_page .toprow_one .row2, #casamirobajo_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #casamirobajo_page .main_content .mid-text div {    margin-left: 0px !important;}
-#casamirobajo_page .main_content .pls_note,#casamirobajo_page .main_content .details_txt,#casamirobajo_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#casamirobajo_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#casamirobajo_page .main_content .pls_note,#casamirobajo_page .main_content .details_txt,#casamirobajo_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#casamirobajo_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #casamirobajo_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*CasaMiroBajo page end*/
@@ -2230,7 +2256,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #BlueMacaw_page .green_season, #BlueMacaw_page .high_season, #BlueMacaw_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #BlueMacaw_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #BlueMacaw_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#BlueMacaw_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#BlueMacaw_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #BlueMacaw_page .main_content .pls_note div {    padding-left: 10px;}
 #BlueMacaw_page .main_content .hr {    width: 100%;    float: left;}
 #BlueMacaw_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2240,19 +2266,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #BlueMacaw_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #BlueMacaw_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #BlueMacaw_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#BlueMacaw_page .main_content .mid-text div {    margin-left:20px; } 
+#BlueMacaw_page .main_content .mid-text div {    margin-left:20px; }
 #BlueMacaw_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #BlueMacaw_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #BlueMacaw_page .main_content .details_txt div, #BlueMacaw_page .main_content .details_txt p {    padding-left: 15px;}
 #BlueMacaw_page .main_content .bed_text div, #BlueMacaw_page .main_content .bed_text p {    padding-left: 15px;}
 #BlueMacaw_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#BlueMacaw_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#BlueMacaw_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #BlueMacaw_page .toprow_one .row2 .sub_dev p,#BlueMacaw_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #BlueMacaw_page .toprow_one .row1, #BlueMacaw_page .toprow_one .row2, #BlueMacaw_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #BlueMacaw_page .main_content .mid-text div {    margin-left: 0px !important;}
-#BlueMacaw_page .main_content .pls_note,#BlueMacaw_page .main_content .details_txt,#BlueMacaw_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#BlueMacaw_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#BlueMacaw_page .main_content .pls_note,#BlueMacaw_page .main_content .details_txt,#BlueMacaw_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#BlueMacaw_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #BlueMacaw_page .toprow_one .row2 .sub_dev p, #BlueMacaw_page .toprow_one .row2 .sub_dev div{    padding-left: 0px;}
 }
 /*BlueMacaw page end*/
@@ -2271,7 +2297,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #LaPalma_page .green_season, #LaPalma_page .high_season, #LaPalma_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #LaPalma_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #LaPalma_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#LaPalma_page .main_content .pls_note, #LaPalma_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#LaPalma_page .main_content .pls_note, #LaPalma_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #LaPalma_page .main_content .pls_note div, #LaPalma_page .main_content .special_box div {    padding-left: 10px;}
 #LaPalma_page .main_content .hr {    width: 100%;    float: left;}
 #LaPalma_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2281,19 +2307,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #LaPalma_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #LaPalma_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #LaPalma_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#LaPalma_page .main_content .mid-text div {    margin-left:20px; } 
+#LaPalma_page .main_content .mid-text div {    margin-left:20px; }
 #LaPalma_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #LaPalma_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #LaPalma_page .main_content .details_txt div, #LaPalma_page .main_content .details_txt p {    padding-left: 15px;}
 #LaPalma_page .main_content .bed_text div, #LaPalma_page .main_content .bed_text p {    padding-left: 15px;}
 #LaPalma_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#LaPalma_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#LaPalma_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #LaPalma_page .toprow_one .row2 .sub_dev p, #LaPalma_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #LaPalma_page .toprow_one .row1, #LaPalma_page .toprow_one .row2, #LaPalma_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #LaPalma_page .main_content .mid-text div {    margin-left: 0px !important;}
-#LaPalma_page .main_content .pls_note,#LaPalma_page .main_content .details_txt,#LaPalma_page .main_content .bed_text, #LaPalma_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#LaPalma_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#LaPalma_page .main_content .pls_note,#LaPalma_page .main_content .details_txt,#LaPalma_page .main_content .bed_text, #LaPalma_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#LaPalma_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #LaPalma_page .toprow_one .row2 .sub_dev p, #LaPalma_page .toprow_one .row2 .sub_dev div, {    padding-left: 0px;}
 }
 /*LaPalma page end*/
@@ -2312,7 +2338,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Casa_Dulce_Beach_House_page .green_season, #Casa_Dulce_Beach_House_page .high_season, #Casa_Dulce_Beach_House_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #Casa_Dulce_Beach_House_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #Casa_Dulce_Beach_House_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Casa_Dulce_Beach_House_page .main_content .pls_note, #Casa_Dulce_Beach_House_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Casa_Dulce_Beach_House_page .main_content .pls_note, #Casa_Dulce_Beach_House_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Casa_Dulce_Beach_House_page .main_content .pls_note div, #Casa_Dulce_Beach_House_page .main_content .special_box div {    padding-left: 10px;}
 #Casa_Dulce_Beach_House_page .main_content .hr {    width: 100%;    float: left;}
 #Casa_Dulce_Beach_House_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2322,19 +2348,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Casa_Dulce_Beach_House_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Casa_Dulce_Beach_House_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Casa_Dulce_Beach_House_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Casa_Dulce_Beach_House_page .main_content .mid-text div {    margin-left:20px; } 
+#Casa_Dulce_Beach_House_page .main_content .mid-text div {    margin-left:20px; }
 #Casa_Dulce_Beach_House_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Casa_Dulce_Beach_House_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Casa_Dulce_Beach_House_page .main_content .details_txt div, #Casa_Dulce_Beach_House_page .main_content .details_txt p {    padding-left: 15px;}
 #Casa_Dulce_Beach_House_page .main_content .bed_text div, #Casa_Dulce_Beach_House_page .main_content .bed_text p {    padding-left: 15px;}
 #Casa_Dulce_Beach_House_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev p, #Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #Casa_Dulce_Beach_House_page .toprow_one .row1, #Casa_Dulce_Beach_House_page .toprow_one .row2, #Casa_Dulce_Beach_House_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Casa_Dulce_Beach_House_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Casa_Dulce_Beach_House_page .main_content .pls_note,#Casa_Dulce_Beach_House_page .main_content .details_txt,#Casa_Dulce_Beach_House_page .main_content .bed_text, #Casa_Dulce_Beach_House_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#Casa_Dulce_Beach_House_page .main_content .pls_note,#Casa_Dulce_Beach_House_page .main_content .details_txt,#Casa_Dulce_Beach_House_page .main_content .bed_text, #Casa_Dulce_Beach_House_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev p, #Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*Casa_Dulce_Beach_House page end*/
@@ -2353,7 +2379,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #PacificPalms_page .green_season, #PacificPalms_page .high_season, #PacificPalms_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #PacificPalms_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #PacificPalms_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#PacificPalms_page .main_content .pls_note, #PacificPalms_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#PacificPalms_page .main_content .pls_note, #PacificPalms_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #PacificPalms_page .main_content .pls_note div, #PacificPalms_page .main_content .special_box div {    padding-left: 10px;}
 #PacificPalms_page .main_content .hr {    width: 100%;    float: left;}
 #PacificPalms_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2363,19 +2389,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #PacificPalms_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #PacificPalms_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #PacificPalms_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#PacificPalms_page .main_content .mid-text div {    margin-left:20px; } 
+#PacificPalms_page .main_content .mid-text div {    margin-left:20px; }
 #PacificPalms_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #PacificPalms_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #PacificPalms_page .main_content .details_txt div, #PacificPalms_page .main_content .details_txt p {    padding-left: 15px;}
 #PacificPalms_page .main_content .bed_text div, #PacificPalms_page .main_content .bed_text p {    padding-left: 15px;}
 #PacificPalms_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#PacificPalms_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#PacificPalms_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #PacificPalms_page .toprow_one .row2 .sub_dev p, #PacificPalms_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #PacificPalms_page .toprow_one .row1, #PacificPalms_page .toprow_one .row2, #PacificPalms_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #PacificPalms_page .main_content .mid-text div {    margin-left: 0px !important;}
-#PacificPalms_page .main_content .pls_note,#PacificPalms_page .main_content .details_txt,#PacificPalms_page .main_content .bed_text, #PacificPalms_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#PacificPalms_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#PacificPalms_page .main_content .pls_note,#PacificPalms_page .main_content .details_txt,#PacificPalms_page .main_content .bed_text, #PacificPalms_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#PacificPalms_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #PacificPalms_page .toprow_one .row2 .sub_dev p, #PacificPalms_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*PacificPalms page end*/
@@ -2394,7 +2420,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaPonte_CostaRica_page .green_season, #CasaPonte_CostaRica_page .high_season, #CasaPonte_CostaRica_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaPonte_CostaRica_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaPonte_CostaRica_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaPonte_CostaRica_page .main_content .pls_note, #CasaPonte_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaPonte_CostaRica_page .main_content .pls_note, #CasaPonte_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaPonte_CostaRica_page .main_content .pls_note div, #CasaPonte_CostaRica_page .main_content .special_box div {    padding-left: 10px;}
 #CasaPonte_CostaRica_page .main_content .hr {    width: 100%;    float: left;}
 #CasaPonte_CostaRica_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2404,19 +2430,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaPonte_CostaRica_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaPonte_CostaRica_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaPonte_CostaRica_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaPonte_CostaRica_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaPonte_CostaRica_page .main_content .mid-text div {    margin-left:20px; }
 #CasaPonte_CostaRica_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaPonte_CostaRica_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaPonte_CostaRica_page .main_content .details_txt div, #CasaPonte_CostaRica_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaPonte_CostaRica_page .main_content .bed_text div, #CasaPonte_CostaRica_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaPonte_CostaRica_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev p, #CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaPonte_CostaRica_page .toprow_one .row1, #CasaPonte_CostaRica_page .toprow_one .row2, #CasaPonte_CostaRica_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaPonte_CostaRica_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaPonte_CostaRica_page .main_content .pls_note,#CasaPonte_CostaRica_page .main_content .details_txt,#CasaPonte_CostaRica_page .main_content .bed_text, #CasaPonte_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaPonte_CostaRica_page .main_content .pls_note,#CasaPonte_CostaRica_page .main_content .details_txt,#CasaPonte_CostaRica_page .main_content .bed_text, #CasaPonte_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev p, #CasaPonte_CostaRica_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*CasaPonte_CostaRica page end*/
@@ -2435,7 +2461,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Hermosa_CostaRica_page .green_season, #Hermosa_CostaRica_page .high_season, #Hermosa_CostaRica_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #Hermosa_CostaRica_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #Hermosa_CostaRica_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Hermosa_CostaRica_page .main_content .pls_note, #Hermosa_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Hermosa_CostaRica_page .main_content .pls_note, #Hermosa_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Hermosa_CostaRica_page .main_content .pls_note div, #Hermosa_CostaRica_page .main_content .special_box div {    padding-left: 10px;}
 #Hermosa_CostaRica_page .main_content .hr {    width: 100%;    float: left;}
 #Hermosa_CostaRica_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2445,20 +2471,20 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Hermosa_CostaRica_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Hermosa_CostaRica_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Hermosa_CostaRica_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Hermosa_CostaRica_page .main_content .mid-text div {    margin-left:20px; } 
+#Hermosa_CostaRica_page .main_content .mid-text div {    margin-left:20px; }
 #Hermosa_CostaRica_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Hermosa_CostaRica_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Hermosa_CostaRica_page .main_content .details_txt div, #Hermosa_CostaRica_page .main_content .details_txt p {    padding-left: 15px;}
 #Hermosa_CostaRica_page .main_content .bed_text div, #Hermosa_CostaRica_page .main_content .bed_text p {    padding-left: 15px;}
 #Hermosa_CostaRica_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#Hermosa_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#Hermosa_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #Hermosa_CostaRica_page .toprow_one .row2 .sub_dev p, #Hermosa_CostaRica_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 #Hermosa_CostaRica_page .row.bottom_logo{ width:100%; float:left;}
 @media screen and (max-width: 575px){
 #Hermosa_CostaRica_page .toprow_one .row1, #Hermosa_CostaRica_page .toprow_one .row2, #Hermosa_CostaRica_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Hermosa_CostaRica_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Hermosa_CostaRica_page .main_content .pls_note,#Hermosa_CostaRica_page .main_content .details_txt,#Hermosa_CostaRica_page .main_content .bed_text, #Hermosa_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#Hermosa_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#Hermosa_CostaRica_page .main_content .pls_note,#Hermosa_CostaRica_page .main_content .details_txt,#Hermosa_CostaRica_page .main_content .bed_text, #Hermosa_CostaRica_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#Hermosa_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #Hermosa_CostaRica_page .toprow_one .row2 .sub_dev p, #Hermosa_CostaRica_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*Hermosa_CostaRica page end*/
@@ -2477,7 +2503,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VistaMarCondo_3B_page .green_season, #VistaMarCondo_3B_page .high_season, #VistaMarCondo_3B_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #VistaMarCondo_3B_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #VistaMarCondo_3B_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#VistaMarCondo_3B_page .main_content .pls_note, #VistaMarCondo_3B_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#VistaMarCondo_3B_page .main_content .pls_note, #VistaMarCondo_3B_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #VistaMarCondo_3B_page .main_content .pls_note div, #VistaMarCondo_3B_page .main_content .pls_note p {    padding-left: 10px;}
 #VistaMarCondo_3B_page .main_content .hr {    width: 100%;    float: left;}
 #VistaMarCondo_3B_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2487,13 +2513,13 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VistaMarCondo_3B_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #VistaMarCondo_3B_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #VistaMarCondo_3B_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#VistaMarCondo_3B_page .main_content .mid-text div {    margin-left:20px; } 
+#VistaMarCondo_3B_page .main_content .mid-text div {    margin-left:20px; }
 #VistaMarCondo_3B_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #VistaMarCondo_3B_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #VistaMarCondo_3B_page .main_content .details_txt div, #VistaMarCondo_3B_page .main_content .details_txt p {    padding-left: 15px;}
 #VistaMarCondo_3B_page .main_content .bed_text div, #VistaMarCondo_3B_page .main_content .bed_text p {    padding-left: 15px;}
 #VistaMarCondo_3B_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#VistaMarCondo_3B_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#VistaMarCondo_3B_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #VistaMarCondo_3B_page .toprow_one .row2 .sub_dev p, #VistaMarCondo_3B_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 #VistaMarCondo_3B_page .row.bottom_logo{ width:100%; float:left;}
 #VistaMarCondo_3B_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
@@ -2503,8 +2529,8 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #VistaMarCondo_3B_page .toprow_one .row1, #VistaMarCondo_3B_page .toprow_one .row2, #VistaMarCondo_3B_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #VistaMarCondo_3B_page .main_content .mid-text div {    margin-left: 0px !important;}
-#VistaMarCondo_3B_page .main_content .pls_note, #VistaMarCondo_3B_page .main_content .details_txt,#VistaMarCondo_3B_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#VistaMarCondo_3B_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#VistaMarCondo_3B_page .main_content .pls_note, #VistaMarCondo_3B_page .main_content .details_txt,#VistaMarCondo_3B_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#VistaMarCondo_3B_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #VistaMarCondo_3B_page .toprow_one .row2 .sub_dev p, #VistaMarCondo_3B_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*VistaMarCondo_3B page end*/
@@ -2523,7 +2549,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCordoba_page .green_season, #CasaCordoba_page .high_season, #CasaCordoba_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaCordoba_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaCordoba_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaCordoba_page .main_content .pls_note, #CasaCordoba_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaCordoba_page .main_content .pls_note, #CasaCordoba_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaCordoba_page .main_content .pls_note div, #CasaCordoba_page .main_content .special_box div {    padding-left: 10px;}
 #CasaCordoba_page .main_content .hr {    width: 100%;    float: left;}
 #CasaCordoba_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2533,13 +2559,13 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCordoba_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaCordoba_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaCordoba_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaCordoba_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaCordoba_page .main_content .mid-text div {    margin-left:20px; }
 #CasaCordoba_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaCordoba_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaCordoba_page .main_content .details_txt div, #CasaCordoba_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaCordoba_page .main_content .bed_text div, #CasaCordoba_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaCordoba_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaCordoba_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaCordoba_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaCordoba_page .toprow_one .row2 .sub_dev p, #CasaCordoba_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 #CasaCordoba_page .row.bottom_logo{ width:100%; float:left;}
 /*CasaCordoba_page end*/
@@ -2558,7 +2584,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaDreamEstate_page .green_season, #CasaDreamEstate_page .high_season, #CasaDreamEstate_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaDreamEstate_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaDreamEstate_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaDreamEstate_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaDreamEstate_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaDreamEstate_page .main_content .pls_note div {    padding-left: 15px;}
 #CasaDreamEstate_page .main_content .hr {    width: 100%;    float: left;}
 #CasaDreamEstate_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2568,19 +2594,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaDreamEstate_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaDreamEstate_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaDreamEstate_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaDreamEstate_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaDreamEstate_page .main_content .mid-text div {    margin-left:20px; }
 #CasaDreamEstate_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaDreamEstate_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaDreamEstate_page .main_content .details_txt div, #CasaDreamEstate_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaDreamEstate_page .main_content .bed_text div, #CasaDreamEstate_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaDreamEstate_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaDreamEstate_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaDreamEstate_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaDreamEstate_page .toprow_one .row2 .sub_dev p, #CasaDreamEstate_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaDreamEstate_page .toprow_one .row1, #CasaDreamEstate_page .toprow_one .row2, #CasaDreamEstate_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaDreamEstate_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaDreamEstate_page .main_content .pls_note,#CasaDreamEstate_page .main_content .details_txt,#CasaDreamEstate_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaDreamEstate_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaDreamEstate_page .main_content .pls_note,#CasaDreamEstate_page .main_content .details_txt,#CasaDreamEstate_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaDreamEstate_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaDreamEstate_page .toprow_one .row2 .sub_dev p, #CasaDreamEstate_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*CasaDreamEstate page end*/
@@ -2599,7 +2625,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #HarmonHouse_page .green_season, #HarmonHouse_page .high_season, #HarmonHouse_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #HarmonHouse_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #HarmonHouse_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#HarmonHouse_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#HarmonHouse_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #HarmonHouse_page .main_content .pls_note div {    padding-left: 15px;}
 #HarmonHouse_page .main_content .hr {    width: 100%;    float: left;}
 #HarmonHouse_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2609,19 +2635,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #HarmonHouse_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #HarmonHouse_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #HarmonHouse_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#HarmonHouse_page .main_content .mid-text div {    margin-left:20px; } 
+#HarmonHouse_page .main_content .mid-text div {    margin-left:20px; }
 #HarmonHouse_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #HarmonHouse_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #HarmonHouse_page .main_content .details_txt div, #HarmonHouse_page .main_content .details_txt p {    padding-left: 15px;}
 #HarmonHouse_page .main_content .bed_text div, #HarmonHouse_page .main_content .bed_text p {    padding-left: 15px;}
 #HarmonHouse_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#HarmonHouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#HarmonHouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #HarmonHouse_page .toprow_one .row2 .sub_dev p, #HarmonHouse_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #HarmonHouse_page .toprow_one .row1, #HarmonHouse_page .toprow_one .row2, #HarmonHouse_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #HarmonHouse_page .main_content .mid-text div {    margin-left: 0px !important;}
-#HarmonHouse_page .main_content .pls_note,#HarmonHouse_page .main_content .details_txt,#HarmonHouse_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#HarmonHouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#HarmonHouse_page .main_content .pls_note,#HarmonHouse_page .main_content .details_txt,#HarmonHouse_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#HarmonHouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #HarmonHouse_page .toprow_one .row2 .sub_dev p, #HarmonHouse_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*HarmonHouse page end*/
@@ -2640,7 +2666,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaGoodDay_page .green_season, #CasaGoodDay_page .high_season, #CasaGoodDay_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaGoodDay_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaGoodDay_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaGoodDay_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaGoodDay_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaGoodDay_page .main_content .pls_note div {    padding-left: 10px;}
 #CasaGoodDay_page .main_content .hr {    width: 100%;    float: left;}
 #CasaGoodDay_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2650,19 +2676,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaGoodDay_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaGoodDay_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaGoodDay_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaGoodDay_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaGoodDay_page .main_content .mid-text div {    margin-left:20px; }
 #CasaGoodDay_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaGoodDay_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaGoodDay_page .main_content .details_txt div, #CasaGoodDay_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaGoodDay_page .main_content .bed_text div, #CasaGoodDay_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaGoodDay_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaGoodDay_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaGoodDay_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaGoodDay_page .toprow_one .row2 .sub_dev p, #CasaGoodDay_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaGoodDay_page .toprow_one .row1, #CasaGoodDay_page .toprow_one .row2, #CasaGoodDay_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaGoodDay_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaGoodDay_page .main_content .pls_note,#CasaGoodDay_page .main_content .details_txt,#CasaGoodDay_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaGoodDay_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaGoodDay_page .main_content .pls_note,#CasaGoodDay_page .main_content .details_txt,#CasaGoodDay_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaGoodDay_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaGoodDay_page .toprow_one .row2 .sub_dev p, #CasaGoodDay_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*CasaGoodDay page end*/
@@ -2681,7 +2707,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VillaCorona_page .green_season, #VillaCorona_page .high_season, #VillaCorona_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #VillaCorona_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #VillaCorona_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;border: 1px solid #808080;}
-#VillaCorona_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#VillaCorona_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #VillaCorona_page .main_content .pls_note div {    padding-left: 15px;}
 #VillaCorona_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
 #VillaCorona_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
@@ -2693,19 +2719,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VillaCorona_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #VillaCorona_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #VillaCorona_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#VillaCorona_page .main_content .mid-text div {    margin-left:20px; } 
+#VillaCorona_page .main_content .mid-text div {    margin-left:20px; }
 #VillaCorona_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #VillaCorona_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #VillaCorona_page .main_content .details_txt div, #VillaCorona_page .main_content .details_txt p {    padding-left: 15px;}
 #VillaCorona_page .main_content .bed_text div, #VillaCorona_page .main_content .bed_text p {    padding-left: 15px;}
 #VillaCorona_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#VillaCorona_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#VillaCorona_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #VillaCorona_page .toprow_one .row2 .sub_dev p, #VillaCorona_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #VillaCorona_page .toprow_one .row1, #VillaCorona_page .toprow_one .row2, #VillaCorona_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #VillaCorona_page .main_content .mid-text div {    margin-left: 0px !important;}
-#VillaCorona_page .main_content .pls_note,#VillaCorona_page .main_content .details_txt,#VillaCorona_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;} 
-#VillaCorona_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#VillaCorona_page .main_content .pls_note,#VillaCorona_page .main_content .details_txt,#VillaCorona_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;}
+#VillaCorona_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #VillaCorona_page .toprow_one .row2 .sub_dev p, #VillaCorona_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*VillaCorona page end*/
@@ -2724,7 +2750,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VillaTequila_page .green_season, #VillaTequila_page .high_season, #VillaTequila_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #VillaTequila_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #VillaTequila_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;border: 1px solid #808080;}
-#VillaTequila_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#VillaTequila_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #VillaTequila_page .main_content .pls_note div {    padding-left: 15px;}
 #VillaTequila_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
 #VillaTequila_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
@@ -2736,19 +2762,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VillaTequila_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #VillaTequila_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #VillaTequila_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#VillaTequila_page .main_content .mid-text div {    margin-left:20px; } 
+#VillaTequila_page .main_content .mid-text div {    margin-left:20px; }
 #VillaTequila_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #VillaTequila_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #VillaTequila_page .main_content .details_txt div, #VillaTequila_page .main_content .details_txt p {    padding-left: 15px;}
 #VillaTequila_page .main_content .bed_text div, #VillaTequila_page .main_content .bed_text p {    padding-left: 15px;}
 #VillaTequila_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#VillaTequila_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#VillaTequila_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #VillaTequila_page .toprow_one .row2 .sub_dev p, #VillaTequila_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #VillaTequila_page .toprow_one .row1, #VillaTequila_page .toprow_one .row2, #VillaTequila_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #VillaTequila_page .main_content .mid-text div {    margin-left: 0px !important;}
-#VillaTequila_page .main_content .pls_note,#VillaTequila_page .main_content .details_txt,#VillaTequila_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;} 
-#VillaTequila_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#VillaTequila_page .main_content .pls_note,#VillaTequila_page .main_content .details_txt,#VillaTequila_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;}
+#VillaTequila_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #VillaTequila_page .toprow_one .row2 .sub_dev p, #VillaTequila_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*VillaTequila page end*/
@@ -2766,7 +2792,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaTropical_page .green_season, #CasaTropical_page .high_season, #CasaTropical_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaTropical_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaTropical_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaTropical_page .main_content .pls_note, #CasaTropical_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaTropical_page .main_content .pls_note, #CasaTropical_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaTropical_page .main_content .pls_note div, #CasaTropical_page .main_content .special_box div {    padding-left: 10px;}
 #CasaTropical_page .main_content .hr {    width: 100%;    float: left;}
 #CasaTropical_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2776,7 +2802,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaTropical_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaTropical_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaTropical_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaTropical_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaTropical_page .main_content .mid-text div {    margin-left:20px; }
 #CasaTropical_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaTropical_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaTropical_page .main_content .details_txt div, #CasaTropical_page .main_content .details_txt p {    padding-left: 15px;}
@@ -2785,9 +2811,9 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #CasaTropical_page .toprow_one .row1, #CasaTropical_page .toprow_one .row2, #CasaTropical_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaTropical_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaTropical_page .main_content .pls_note,#CasaTropical_page .main_content .details_txt,#CasaTropical_page .main_content .bed_text, #CasaTropical_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
+#CasaTropical_page .main_content .pls_note,#CasaTropical_page .main_content .details_txt,#CasaTropical_page .main_content .bed_text, #CasaTropical_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
 }
-/*CasaTropical page end*/ 
+/*CasaTropical page end*/
 
 
 /*OceanPlace page start*/
@@ -2803,7 +2829,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #OceanPlace_page .green_season, #OceanPlace_page .high_season, #OceanPlace_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #OceanPlace_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #OceanPlace_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#OceanPlace_page .main_content .pls_note, #OceanPlace_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#OceanPlace_page .main_content .pls_note, #OceanPlace_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #OceanPlace_page .main_content .pls_note div, #OceanPlace_page .main_content .special_box div {    padding-left: 10px;}
 #OceanPlace_page .main_content .hr {    width: 100%;    float: left;}
 #OceanPlace_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2813,7 +2839,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #OceanPlace_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #OceanPlace_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #OceanPlace_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#OceanPlace_page .main_content .mid-text div {    margin-left:20px; } 
+#OceanPlace_page .main_content .mid-text div {    margin-left:20px; }
 #OceanPlace_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #OceanPlace_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #OceanPlace_page .main_content .details_txt div, #OceanPlace_page .main_content .details_txt p {    padding-left: 15px;}
@@ -2822,7 +2848,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #OceanPlace_page .toprow_one .row1, #OceanPlace_page .toprow_one .row2, #OceanPlace_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #OceanPlace_page .main_content .mid-text div {    margin-left: 0px !important;}
-#OceanPlace_page .main_content .pls_note,#OceanPlace_page .main_content .details_txt,#OceanPlace_page .main_content .bed_text, #OceanPlace_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
+#OceanPlace_page .main_content .pls_note,#OceanPlace_page .main_content .details_txt,#OceanPlace_page .main_content .bed_text, #OceanPlace_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
 }
 /*OceanPlace page end*/
 
@@ -2840,7 +2866,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaPonteBeach_page .green_season, #CasaPonteBeach_page .high_season, #CasaPonteBeach_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaPonteBeach_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaPonteBeach_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaPonteBeach_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaPonteBeach_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaPonteBeach_page .main_content .pls_note div {    padding-left: 10px;}
 #CasaPonteBeach_page .main_content .hr {    width: 100%;    float: left;}
 #CasaPonteBeach_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2850,19 +2876,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaPonteBeach_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaPonteBeach_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaPonteBeach_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaPonteBeach_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaPonteBeach_page .main_content .mid-text div {    margin-left:20px; }
 #CasaPonteBeach_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaPonteBeach_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaPonteBeach_page .main_content .details_txt div, #CasaPonteBeach_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaPonteBeach_page .main_content .bed_text div, #CasaPonteBeach_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaPonteBeach_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaPonteBeach_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaPonteBeach_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaPonteBeach_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaPonteBeach_page .toprow_one .row1, #CasaPonteBeach_page .toprow_one .row2, #CasaPonteBeach_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaPonteBeach_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaPonteBeach_page .main_content .pls_note,#CasaPonteBeach_page .main_content .details_txt,#CasaPonteBeach_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaPonteBeach_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaPonteBeach_page .main_content .pls_note,#CasaPonteBeach_page .main_content .details_txt,#CasaPonteBeach_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaPonteBeach_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaPonteBeach_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*CasaPonteBeach page end*/
@@ -2881,7 +2907,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #NorthBeachVilla_page .green_season, #NorthBeachVilla_page .high_season, #NorthBeachVilla_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #NorthBeachVilla_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #NorthBeachVilla_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#NorthBeachVilla_page .main_content .pls_note, #NorthBeachVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#NorthBeachVilla_page .main_content .pls_note, #NorthBeachVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #NorthBeachVilla_page .main_content .pls_note div, #NorthBeachVilla_page .main_content .special_box div {    padding-left: 10px;}
 #NorthBeachVilla_page .main_content .hr {    width: 100%;    float: left;}
 #NorthBeachVilla_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2891,19 +2917,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #NorthBeachVilla_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #NorthBeachVilla_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #NorthBeachVilla_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#NorthBeachVilla_page .main_content .mid-text div {    margin-left:20px; } 
+#NorthBeachVilla_page .main_content .mid-text div {    margin-left:20px; }
 #NorthBeachVilla_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #NorthBeachVilla_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #NorthBeachVilla_page .main_content .details_txt div, #NorthBeachVilla_page .main_content .details_txt p {    padding-left: 15px;}
 #NorthBeachVilla_page .main_content .bed_text div, #NorthBeachVilla_page .main_content .bed_text p {    padding-left: 15px;}
 #NorthBeachVilla_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#NorthBeachVilla_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#NorthBeachVilla_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #NorthBeachVilla_page .toprow_one .row2 .sub_dev p, #NorthBeachVilla_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #NorthBeachVilla_page .toprow_one .row1, #NorthBeachVilla_page .toprow_one .row2, #NorthBeachVilla_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #NorthBeachVilla_page .main_content .mid-text div {    margin-left: 0px !important;}
-#NorthBeachVilla_page .main_content .pls_note,#NorthBeachVilla_page .main_content .details_txt,#NorthBeachVilla_page .main_content .bed_text, #NorthBeachVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#NorthBeachVilla_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#NorthBeachVilla_page .main_content .pls_note,#NorthBeachVilla_page .main_content .details_txt,#NorthBeachVilla_page .main_content .bed_text, #NorthBeachVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#NorthBeachVilla_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #NorthBeachVilla_page .toprow_one .row2 .sub_dev p, #NorthBeachVilla_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*NorthBeachVilla page end*/
@@ -2922,7 +2948,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaBlanca_CostaRica_page .green_season, #CasaBlanca_CostaRica_page .high_season, #CasaBlanca_CostaRica_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaBlanca_CostaRica_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaBlanca_CostaRica_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaBlanca_CostaRica_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaBlanca_CostaRica_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaBlanca_CostaRica_page .main_content .pls_note div {    padding-left: 10px;}
 #CasaBlanca_CostaRica_page .main_content .hr {    width: 100%;    float: left;}
 #CasaBlanca_CostaRica_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2932,19 +2958,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaBlanca_CostaRica_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaBlanca_CostaRica_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaBlanca_CostaRica_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaBlanca_CostaRica_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaBlanca_CostaRica_page .main_content .mid-text div {    margin-left:20px; }
 #CasaBlanca_CostaRica_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaBlanca_CostaRica_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaBlanca_CostaRica_page .main_content .details_txt div, #CasaBlanca_CostaRica_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaBlanca_CostaRica_page .main_content .bed_text div, #CasaBlanca_CostaRica_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaBlanca_CostaRica_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaBlanca_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaBlanca_CostaRica_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaBlanca_CostaRica_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaBlanca_CostaRica_page .toprow_one .row1, #CasaBlanca_CostaRica_page .toprow_one .row2, #CasaBlanca_CostaRica_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaBlanca_CostaRica_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaBlanca_CostaRica_page .main_content .pls_note,#CasaBlanca_CostaRica_page .main_content .details_txt,#CasaBlanca_CostaRica_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaBlanca_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaBlanca_CostaRica_page .main_content .pls_note,#CasaBlanca_CostaRica_page .main_content .details_txt,#CasaBlanca_CostaRica_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaBlanca_CostaRica_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaBlanca_CostaRica_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*CasaBlanca_CostaRica page end*/
@@ -2963,7 +2989,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #oneA_page .green_season, #oneA_page .high_season, #oneA_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #oneA_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #oneA_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#oneA_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#oneA_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #oneA_page .main_content .pls_note div, #oneA_page .main_content .pls_note p {    padding-left: 10px;}
 #oneA_page .main_content .hr {    width: 100%;    float: left;}
 #oneA_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -2973,19 +2999,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #oneA_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #oneA_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #oneA_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#oneA_page .main_content .mid-text div {    margin-left:20px; } 
+#oneA_page .main_content .mid-text div {    margin-left:20px; }
 #oneA_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #oneA_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #oneA_page .main_content .details_txt div, #oneA_page .main_content .details_txt p {    padding-left: 15px;}
 #oneA_page .main_content .bed_text div, #oneA_page .main_content .bed_text p {    padding-left: 15px;}
 #oneA_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#oneA_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#oneA_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #oneA_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #oneA_page .toprow_one .row1, #oneA_page .toprow_one .row2, #oneA_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #oneA_page .main_content .mid-text div {    margin-left: 0px !important;}
-#oneA_page .main_content .pls_note,#oneA_page .main_content .details_txt,#oneA_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#oneA_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#oneA_page .main_content .pls_note,#oneA_page .main_content .details_txt,#oneA_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#oneA_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #oneA_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*oneA page end*/
@@ -3004,7 +3030,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Hermosa_Beach_Front_Estate_page .green_season, #Hermosa_Beach_Front_Estate_page .high_season, #Hermosa_Beach_Front_Estate_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #Hermosa_Beach_Front_Estate_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #Hermosa_Beach_Front_Estate_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Hermosa_Beach_Front_Estate_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Hermosa_Beach_Front_Estate_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Hermosa_Beach_Front_Estate_page .main_content .pls_note div, #Hermosa_Beach_Front_Estate_page .main_content .pls_note p {    padding-left: 10px;}
 #Hermosa_Beach_Front_Estate_page .main_content .hr {    width: 100%;    float: left;}
 #Hermosa_Beach_Front_Estate_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3014,19 +3040,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Hermosa_Beach_Front_Estate_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Hermosa_Beach_Front_Estate_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Hermosa_Beach_Front_Estate_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Hermosa_Beach_Front_Estate_page .main_content .mid-text div {    margin-left:20px; } 
+#Hermosa_Beach_Front_Estate_page .main_content .mid-text div {    margin-left:20px; }
 #Hermosa_Beach_Front_Estate_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Hermosa_Beach_Front_Estate_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Hermosa_Beach_Front_Estate_page .main_content .details_txt div, #Hermosa_Beach_Front_Estate_page .main_content .details_txt p {    padding-left: 15px;}
 #Hermosa_Beach_Front_Estate_page .main_content .bed_text div, #Hermosa_Beach_Front_Estate_page .main_content .bed_text p {    padding-left: 15px;}
 #Hermosa_Beach_Front_Estate_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#Hermosa_Beach_Front_Estate_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#Hermosa_Beach_Front_Estate_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #Hermosa_Beach_Front_Estate_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #Hermosa_Beach_Front_Estate_page .toprow_one .row1, #Hermosa_Beach_Front_Estate_page .toprow_one .row2, #Hermosa_Beach_Front_Estate_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Hermosa_Beach_Front_Estate_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Hermosa_Beach_Front_Estate_page .main_content .pls_note,#Hermosa_Beach_Front_Estate_page .main_content .details_txt,#Hermosa_Beach_Front_Estate_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#Hermosa_Beach_Front_Estate_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#Hermosa_Beach_Front_Estate_page .main_content .pls_note,#Hermosa_Beach_Front_Estate_page .main_content .details_txt,#Hermosa_Beach_Front_Estate_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#Hermosa_Beach_Front_Estate_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #Hermosa_Beach_Front_Estate_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*Hermosa_Beach_Front_Estate page end*/
@@ -3045,7 +3071,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCocal_page .green_season, #CasaCocal_page .high_season, #CasaCocal_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaCocal_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaCocal_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaCocal_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaCocal_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaCocal_page .main_content .pls_note div, #CasaCocal_page .main_content .pls_note p {    padding-left: 10px;}
 #CasaCocal_page .main_content .hr {    width: 100%;    float: left;}
 #CasaCocal_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3055,19 +3081,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCocal_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaCocal_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaCocal_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaCocal_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaCocal_page .main_content .mid-text div {    margin-left:20px; }
 #CasaCocal_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaCocal_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaCocal_page .main_content .details_txt div, #CasaCocal_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaCocal_page .main_content .bed_text div, #CasaCocal_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaCocal_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaCocal_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaCocal_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaCocal_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaCocal_page .toprow_one .row1, #CasaCocal_page .toprow_one .row2, #CasaCocal_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaCocal_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaCocal_page .main_content .pls_note,#CasaCocal_page .main_content .details_txt,#CasaCocal_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaCocal_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaCocal_page .main_content .pls_note,#CasaCocal_page .main_content .details_txt,#CasaCocal_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaCocal_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaCocal_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*CasaCocal page end*/
@@ -3086,7 +3112,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #DiamondSunPenthouse_page .green_season, #DiamondSunPenthouse_page .high_season, #DiamondSunPenthouse_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #DiamondSunPenthouse_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #DiamondSunPenthouse_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#DiamondSunPenthouse_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#DiamondSunPenthouse_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #DiamondSunPenthouse_page .main_content .pls_note div, #DiamondSunPenthouse_page .main_content .pls_note p {    padding-left: 10px;}
 #DiamondSunPenthouse_page .main_content .hr {    width: 100%;    float: left;}
 #DiamondSunPenthouse_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3096,19 +3122,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #DiamondSunPenthouse_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #DiamondSunPenthouse_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #DiamondSunPenthouse_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#DiamondSunPenthouse_page .main_content .mid-text div {    margin-left:20px; } 
+#DiamondSunPenthouse_page .main_content .mid-text div {    margin-left:20px; }
 #DiamondSunPenthouse_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #DiamondSunPenthouse_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #DiamondSunPenthouse_page .main_content .details_txt div, #DiamondSunPenthouse_page .main_content .details_txt p {    padding-left: 15px;}
 #DiamondSunPenthouse_page .main_content .bed_text div, #DiamondSunPenthouse_page .main_content .bed_text p {    padding-left: 15px;}
 #DiamondSunPenthouse_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#DiamondSunPenthouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#DiamondSunPenthouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #DiamondSunPenthouse_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #DiamondSunPenthouse_page .toprow_one .row1, #DiamondSunPenthouse_page .toprow_one .row2, #DiamondSunPenthouse_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #DiamondSunPenthouse_page .main_content .mid-text div {    margin-left: 0px !important;}
-#DiamondSunPenthouse_page .main_content .pls_note,#DiamondSunPenthouse_page .main_content .details_txt,#DiamondSunPenthouse_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#DiamondSunPenthouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#DiamondSunPenthouse_page .main_content .pls_note,#DiamondSunPenthouse_page .main_content .details_txt,#DiamondSunPenthouse_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#DiamondSunPenthouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #DiamondSunPenthouse_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*DiamondSunPenthouse page end*/
@@ -3127,7 +3153,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #HermosaHouse11_page .green_season, #HermosaHouse11_page .high_season, #HermosaHouse11_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #HermosaHouse11_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #HermosaHouse11_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#HermosaHouse11_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#HermosaHouse11_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #HermosaHouse11_page .main_content .pls_note div, #HermosaHouse11_page .main_content .pls_note p {    padding-left: 10px;}
 #HermosaHouse11_page .main_content .hr {    width: 100%;    float: left;}
 #HermosaHouse11_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3137,19 +3163,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #HermosaHouse11_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #HermosaHouse11_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #HermosaHouse11_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#HermosaHouse11_page .main_content .mid-text div {    margin-left:20px; } 
+#HermosaHouse11_page .main_content .mid-text div {    margin-left:20px; }
 #HermosaHouse11_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #HermosaHouse11_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #HermosaHouse11_page .main_content .details_txt div, #HermosaHouse11_page .main_content .details_txt p {    padding-left: 15px;}
 #HermosaHouse11_page .main_content .bed_text div, #HermosaHouse11_page .main_content .bed_text p {    padding-left: 15px;}
 #HermosaHouse11_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#HermosaHouse11_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#HermosaHouse11_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #HermosaHouse11_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #HermosaHouse11_page .toprow_one .row1, #HermosaHouse11_page .toprow_one .row2, #HermosaHouse11_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #HermosaHouse11_page .main_content .mid-text div {    margin-left: 0px !important;}
-#HermosaHouse11_page .main_content .pls_note,#HermosaHouse11_page .main_content .details_txt,#HermosaHouse11_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#HermosaHouse11_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#HermosaHouse11_page .main_content .pls_note,#HermosaHouse11_page .main_content .details_txt,#HermosaHouse11_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#HermosaHouse11_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #HermosaHouse11_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*HermosaHouse11 page end*/
@@ -3168,7 +3194,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #HermosaDreams_page .green_season, #HermosaDreams_page .high_season, #HermosaDreams_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #HermosaDreams_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #HermosaDreams_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#HermosaDreams_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#HermosaDreams_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #HermosaDreams_page .main_content .pls_note div, #HermosaDreams_page .main_content .pls_note p {    padding-left: 10px;}
 #HermosaDreams_page .main_content .hr {    width: 100%;    float: left;}
 #HermosaDreams_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3178,19 +3204,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #HermosaDreams_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #HermosaDreams_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #HermosaDreams_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#HermosaDreams_page .main_content .mid-text div {    margin-left:20px; } 
+#HermosaDreams_page .main_content .mid-text div {    margin-left:20px; }
 #HermosaDreams_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #HermosaDreams_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #HermosaDreams_page .main_content .details_txt div, #HermosaDreams_page .main_content .details_txt p {    padding-left: 15px;}
 #HermosaDreams_page .main_content .bed_text div, #HermosaDreams_page .main_content .bed_text p {    padding-left: 15px;}
 #HermosaDreams_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#HermosaDreams_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#HermosaDreams_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #HermosaDreams_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #HermosaDreams_page .toprow_one .row1, #HermosaDreams_page .toprow_one .row2, #HermosaDreams_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #HermosaDreams_page .main_content .mid-text div {    margin-left: 0px !important;}
-#HermosaDreams_page .main_content .pls_note,#HermosaDreams_page .main_content .details_txt,#HermosaDreams_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#HermosaDreams_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#HermosaDreams_page .main_content .pls_note,#HermosaDreams_page .main_content .details_txt,#HermosaDreams_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#HermosaDreams_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #HermosaDreams_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*HermosaDreams page end*/
@@ -3209,7 +3235,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #fourC_page .green_season, #fourC_page .high_season, #fourC_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #fourC_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #fourC_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#fourC_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#fourC_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #fourC_page .main_content .pls_note div, #fourC_page .main_content .pls_note p {    padding-left: 10px;}
 #fourC_page .main_content .hr {    width: 100%;    float: left;}
 #fourC_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3219,19 +3245,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #fourC_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #fourC_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #fourC_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#fourC_page .main_content .mid-text div {    margin-left:20px; } 
+#fourC_page .main_content .mid-text div {    margin-left:20px; }
 #fourC_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #fourC_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #fourC_page .main_content .details_txt div, #fourC_page .main_content .details_txt p {    padding-left: 15px;}
 #fourC_page .main_content .bed_text div, #fourC_page .main_content .bed_text p {    padding-left: 15px;}
 #fourC_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#fourC_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#fourC_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #fourC_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #fourC_page .toprow_one .row1, #fourC_page .toprow_one .row2, #fourC_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #fourC_page .main_content .mid-text div {    margin-left: 0px !important;}
-#fourC_page .main_content .pls_note,#fourC_page .main_content .details_txt,#fourC_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#fourC_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#fourC_page .main_content .pls_note,#fourC_page .main_content .details_txt,#fourC_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#fourC_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #fourC_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*fourC page end*/
@@ -3250,7 +3276,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Penthouse_page .green_season, #Penthouse_page .high_season, #Penthouse_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #Penthouse_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #Penthouse_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Penthouse_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Penthouse_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #Penthouse_page .main_content .pls_note div {    padding-left: 10px;}
 #Penthouse_page .main_content .hr {    width: 100%;    float: left;}
 #Penthouse_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3260,19 +3286,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #Penthouse_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #Penthouse_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #Penthouse_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Penthouse_page .main_content .mid-text div {    margin-left:20px; } 
+#Penthouse_page .main_content .mid-text div {    margin-left:20px; }
 #Penthouse_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #Penthouse_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #Penthouse_page .main_content .details_txt div, #Penthouse_page .main_content .details_txt p {    padding-left: 15px;}
 #Penthouse_page .main_content .bed_text div, #Penthouse_page .main_content .bed_text p {    padding-left: 15px;}
 #Penthouse_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#Penthouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#Penthouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #Penthouse_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #Penthouse_page .toprow_one .row1, #Penthouse_page .toprow_one .row2, #Penthouse_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #Penthouse_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Penthouse_page .main_content .pls_note,#Penthouse_page .main_content .details_txt,#Penthouse_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
-#Penthouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#Penthouse_page .main_content .pls_note,#Penthouse_page .main_content .details_txt,#Penthouse_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
+#Penthouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #Penthouse_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
 }
 /*Penthouse page end*/
@@ -3292,7 +3318,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #casaponte2_page .green_season, #casaponte2_page .high_season, #casaponte2_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #casaponte2_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #casaponte2_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#casaponte2_page .main_content .pls_note, #casaponte2_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#casaponte2_page .main_content .pls_note, #casaponte2_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #casaponte2_page .main_content .pls_note div, #casaponte2_page .main_content .special_box div {    padding-left: 10px;}
 #casaponte2_page .main_content .hr {    width: 100%;    float: left;}
 #casaponte2_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3302,13 +3328,13 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #casaponte2_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #casaponte2_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #casaponte2_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#casaponte2_page .main_content .mid-text div {    margin-left:20px; } 
+#casaponte2_page .main_content .mid-text div {    margin-left:20px; }
 #casaponte2_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #casaponte2_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #casaponte2_page .main_content .details_txt div, #casaponte2_page .main_content .details_txt p {    padding-left: 15px;}
 #casaponte2_page .main_content .bed_text div, #casaponte2_page .main_content .bed_text p {    padding-left: 15px;}
 #casaponte2_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#casaponte2_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#casaponte2_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #casaponte2_page .toprow_one .row2 .sub_dev p, #casaponte2_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 #casaponte2_page .toprow_one .row.video,#casaponte2_page .toprow_one .row2.video_blw {margin-bottom: 10px;width: 95%;    margin: 0 auto;    float: none; }
 #casaponte2_page .toprow_one .row.video .col-sm-8{padding: 10px 20px;}
@@ -3316,8 +3342,8 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #casaponte2_page .toprow_one .row1, #casaponte2_page .toprow_one .row2, #casaponte2_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #casaponte2_page .main_content .mid-text div {    margin-left: 0px !important;}
-#casaponte2_page .main_content .pls_note,#casaponte2_page .main_content .details_txt,#casaponte2_page .main_content .bed_text, #casaponte2_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#casaponte2_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#casaponte2_page .main_content .pls_note,#casaponte2_page .main_content .details_txt,#casaponte2_page .main_content .bed_text, #casaponte2_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#casaponte2_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #casaponte2_page .toprow_one .row2 .sub_dev p, #casaponte2_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 #casaponte2_page .toprow_one .row.video,#casaponte2_page .toprow_one .row2.video_blw{width: 100%; }
 }
@@ -3338,7 +3364,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VillaLosAmigos_page .green_season, #VillaLosAmigos_page .high_season, #VillaLosAmigos_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #VillaLosAmigos_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #VillaLosAmigos_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#VillaLosAmigos_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#VillaLosAmigos_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #VillaLosAmigos_page .main_content .pls_note div {    padding-left: 10px;}
 #VillaLosAmigos_page .main_content .hr {    width: 100%;    float: left;}
 #VillaLosAmigos_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3348,7 +3374,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #VillaLosAmigos_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #VillaLosAmigos_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #VillaLosAmigos_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#VillaLosAmigos_page .main_content .mid-text div {    margin-left:20px; } 
+#VillaLosAmigos_page .main_content .mid-text div {    margin-left:20px; }
 #VillaLosAmigos_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #VillaLosAmigos_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #VillaLosAmigos_page .main_content .details_txt div, #VillaLosAmigos_page .main_content .details_txt p {    padding-left: 15px;}
@@ -3360,7 +3386,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #VillaLosAmigos_page .toprow_one .row1, #VillaLosAmigos_page .toprow_one .row2, #VillaLosAmigos_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #VillaLosAmigos_page .main_content .mid-text div {    margin-left: 0px !important;}
-#VillaLosAmigos_page .main_content .pls_note,#VillaLosAmigos_page .main_content .details_txt,#VillaLosAmigos_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;} 
+#VillaLosAmigos_page .main_content .pls_note,#VillaLosAmigos_page .main_content .details_txt,#VillaLosAmigos_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;}
 #VillaLosAmigos_page .toprow_one .row.video,#VillaLosAmigos_page .toprow_one .row2.video_blw{width: 100%; }
 }
 /*VillaLosAmigos page end*/
@@ -3379,7 +3405,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCortesBeachHouse_page .green_season, #CasaCortesBeachHouse_page .high_season, #CasaCortesBeachHouse_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaCortesBeachHouse_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaCortesBeachHouse_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#CasaCortesBeachHouse_page .main_content .pls_note, #CasaCortesBeachHouse_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaCortesBeachHouse_page .main_content .pls_note, #CasaCortesBeachHouse_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaCortesBeachHouse_page .main_content .pls_note div, #CasaCortesBeachHouse_page .main_content .special_box div {    padding-left: 10px;}
 #CasaCortesBeachHouse_page .main_content .hr {    width: 100%;    float: left;}
 #CasaCortesBeachHouse_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3389,19 +3415,19 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaCortesBeachHouse_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaCortesBeachHouse_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaCortesBeachHouse_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaCortesBeachHouse_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaCortesBeachHouse_page .main_content .mid-text div {    margin-left:20px; }
 #CasaCortesBeachHouse_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaCortesBeachHouse_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaCortesBeachHouse_page .main_content .details_txt div, #CasaCortesBeachHouse_page .main_content .details_txt p {    padding-left: 15px;}
 #CasaCortesBeachHouse_page .main_content .bed_text div, #CasaCortesBeachHouse_page .main_content .bed_text p {    padding-left: 15px;}
 #CasaCortesBeachHouse_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev p, #CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 @media screen and (max-width: 575px){
 #CasaCortesBeachHouse_page .toprow_one .row1, #CasaCortesBeachHouse_page .toprow_one .row2, #CasaCortesBeachHouse_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaCortesBeachHouse_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaCortesBeachHouse_page .main_content .pls_note,#CasaCortesBeachHouse_page .main_content .details_txt,#CasaCortesBeachHouse_page .main_content .bed_text, #CasaCortesBeachHouse_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;} 
-#CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#CasaCortesBeachHouse_page .main_content .pls_note,#CasaCortesBeachHouse_page .main_content .details_txt,#CasaCortesBeachHouse_page .main_content .bed_text, #CasaCortesBeachHouse_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
+#CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
 #CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev p, #CasaCortesBeachHouse_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*CasaCortesBeachHouse page end*/
@@ -3420,7 +3446,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaOasis_page .green_season, #CasaOasis_page .high_season, #CasaOasis_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #CasaOasis_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #CasaOasis_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;border: 1px solid #808080;}
-#CasaOasis_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#CasaOasis_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #CasaOasis_page .main_content .pls_note div {    padding-left: 15px;}
 #CasaOasis_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
 #CasaOasis_page .main_content .season_box.row.two_box .col-sm-6, #CasaOasis_page .main_content .season_box .col-sm-12 {padding-top: 15px;    padding-bottom: 15px;}
@@ -3432,7 +3458,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CasaOasis_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #CasaOasis_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #CasaOasis_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#CasaOasis_page .main_content .mid-text div {    margin-left:20px; } 
+#CasaOasis_page .main_content .mid-text div {    margin-left:20px; }
 #CasaOasis_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #CasaOasis_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #CasaOasis_page .main_content .details_txt div, #CasaOasis_page .main_content .details_txt p {    padding-left: 15px;}
@@ -3441,7 +3467,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 @media screen and (max-width: 575px){
 #CasaOasis_page .toprow_one .row1, #CasaOasis_page .toprow_one .row2, #CasaOasis_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
 #CasaOasis_page .main_content .mid-text div {    margin-left: 0px !important;}
-#CasaOasis_page .main_content .pls_note,#CasaOasis_page .main_content .details_txt,#CasaOasis_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;} 
+#CasaOasis_page .main_content .pls_note,#CasaOasis_page .main_content .details_txt,#CasaOasis_page .main_content .bed_text{    float: left;    width: 100%; padding: 10px 0px;}
 }
 /*CasaOasis page end*/
 
@@ -3808,7 +3834,7 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #VistaMarCondo_5D_page .green_season, #VistaMarCondo_5D_page .high_season, #VistaMarCondo_5D_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #VistaMarCondo_5D_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #VistaMarCondo_5D_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#VistaMarCondo_5D_page .main_content .pls_note, #VistaMarCondo_5D_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#VistaMarCondo_5D_page .main_content .pls_note, #VistaMarCondo_5D_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #VistaMarCondo_5D_page .main_content .pls_note div, #VistaMarCondo_5D_page .main_content .special_box div {    padding-left: 10px;}
 #VistaMarCondo_5D_page .main_content .hr {    width: 100%;    float: left;}
 #VistaMarCondo_5D_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3823,7 +3849,7 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #VistaMarCondo_5D_page .main_content .details_txt div, #VistaMarCondo_5D_page .main_content .details_txt p {    padding-left: 15px;}
 #VistaMarCondo_5D_page .main_content .bed_text div, #VistaMarCondo_5D_page .main_content .bed_text p {    padding-left: 15px;}
 #VistaMarCondo_5D_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#VistaMarCondo_5D_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#VistaMarCondo_5D_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #VistaMarCondo_5D_page .toprow_one .row2 .sub_dev p, #VistaMarCondo_5D_page .toprow_one .row2 .sub_dev div {padding-left: 10px;}
 /*VistaMarCondo_5D_page_end*/
 
@@ -3841,7 +3867,7 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #MardiGras4Plex_page .green_season, #MardiGras4Plex_page .high_season, #MardiGras4Plex_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #MardiGras4Plex_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #MardiGras4Plex_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#MardiGras4Plex_page .main_content .pls_note, #MardiGras4Plex_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#MardiGras4Plex_page .main_content .pls_note, #MardiGras4Plex_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #MardiGras4Plex_page .main_content .pls_note div, #MardiGras4Plex_page .main_content .special_box div {    padding-left: 10px;}
 #MardiGras4Plex_page .main_content .hr {    width: 100%;    float: left;}
 #MardiGras4Plex_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3851,13 +3877,13 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #MardiGras4Plex_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #MardiGras4Plex_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #MardiGras4Plex_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#MardiGras4Plex_page .main_content .mid-text div {    margin-left:20px; } 
+#MardiGras4Plex_page .main_content .mid-text div {    margin-left:20px; }
 #MardiGras4Plex_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #MardiGras4Plex_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #MardiGras4Plex_page .main_content .details_txt div, #MardiGras4Plex_page .main_content .details_txt p {    padding-left: 15px;}
 #MardiGras4Plex_page .main_content .bed_text div, #MardiGras4Plex_page .main_content .bed_text p {    padding-left: 15px;}
 #MardiGras4Plex_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#MardiGras4Plex_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#MardiGras4Plex_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #MardiGras4Plex_page .toprow_one .row2 .sub_dev p, #MardiGras4Plex_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 /*MardiGras4Plex_page_end*/
 
@@ -3875,7 +3901,7 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #SeaBreezeVilla_page .green_season, #SeaBreezeVilla_page .high_season, #SeaBreezeVilla_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #SeaBreezeVilla_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #SeaBreezeVilla_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922; border: 1px solid #808080; }
-#SeaBreezeVilla_page .main_content .pls_note, #SeaBreezeVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#SeaBreezeVilla_page .main_content .pls_note, #SeaBreezeVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #SeaBreezeVilla_page .main_content .pls_note div, #SeaBreezeVilla_page .main_content .special_box div {    padding-left: 10px;}
 #SeaBreezeVilla_page .main_content .hr {    width: 100%;    float: left;}
 #SeaBreezeVilla_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3885,13 +3911,13 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #SeaBreezeVilla_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #SeaBreezeVilla_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #SeaBreezeVilla_page .mid-text.size2 { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#SeaBreezeVilla_page .main_content .mid-text div {    margin-left:20px; } 
+#SeaBreezeVilla_page .main_content .mid-text div {    margin-left:20px; }
 #SeaBreezeVilla_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #SeaBreezeVilla_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #SeaBreezeVilla_page .main_content .details_txt div, #SeaBreezeVilla_page .main_content .details_txt p {    padding-left: 15px;}
 #SeaBreezeVilla_page .main_content .bed_text div, #SeaBreezeVilla_page .main_content .bed_text p {    padding-left: 15px;}
 #SeaBreezeVilla_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#SeaBreezeVilla_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#SeaBreezeVilla_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #SeaBreezeVilla_page .toprow_one .row2 .sub_dev p, #SeaBreezeVilla_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 #SeaBreezeVilla_page .main_content .season_box.row .col-sm-12.bold,  .season_box.row.two_box .col-sm-6.bold, #SeaBreezeVilla_page .col-sm-4.bold{ padding: 15px 15px;}
 @media screen and (min-width:601px){
@@ -3924,7 +3950,7 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #VillaTranquilaMar_page .green_season, #VillaTranquilaMar_page .high_season, #VillaTranquilaMar_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
 #VillaTranquilaMar_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
 #VillaTranquilaMar_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922; border: 1px solid #808080; }
-#VillaTranquilaMar_page .main_content .pls_note, #VillaTranquilaMar_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#VillaTranquilaMar_page .main_content .pls_note, #VillaTranquilaMar_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
 #VillaTranquilaMar_page .main_content .pls_note div, #VillaTranquilaMar_page .main_content .special_box div {    padding-left: 10px;}
 #VillaTranquilaMar_page .main_content .hr {    width: 100%;    float: left;}
 #VillaTranquilaMar_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
@@ -3934,13 +3960,13 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #VillaTranquilaMar_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
 #VillaTranquilaMar_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
 #VillaTranquilaMar_page .mid-text.size2 { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#VillaTranquilaMar_page .main_content .mid-text div {    margin-left:20px; } 
+#VillaTranquilaMar_page .main_content .mid-text div {    margin-left:20px; }
 #VillaTranquilaMar_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
 #VillaTranquilaMar_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
 #VillaTranquilaMar_page .main_content .details_txt div, #VillaTranquilaMar_page .main_content .details_txt p {    padding-left: 15px;}
 #VillaTranquilaMar_page .main_content .bed_text div, #VillaTranquilaMar_page .main_content .bed_text p {    padding-left: 15px;}
 #VillaTranquilaMar_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#VillaTranquilaMar_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#VillaTranquilaMar_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
 #VillaTranquilaMar_page .toprow_one .row2 .sub_dev p, #VillaTranquilaMar_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
 #VillaTranquilaMar_page .main_content .season_box.row .col-sm-12.bold,  .season_box.row.two_box .col-sm-6.bold, #VillaTranquilaMar_page .col-sm-4.bold{ padding: 15px 15px;}
 @media screen and (min-width:601px){
@@ -3958,4 +3984,3 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #VillaTranquilaMar_page .main_content .season_box.row.two_box .col-sm-6.bold, #VillaTranquilaMar_page .main_content .season_box.row .col-sm-12.bold {text-align:center;}
 }
 /*VillaTranquilaMar_page end*/
-

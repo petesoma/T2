@@ -21,16 +21,13 @@
 <meta property="og:image" content="https://www.jacovip.com/images/atv-tours-jaco-costa-rica/4-hour-atv-jungle-and-waterfall-tour-og.jpg" />
 <meta property="og:description" content="Guided ATV Adventure Tour in rural Costa Rica. Ride through jungle, small towns, and rivers to a PRIVATE Waterfall where you can jump into the natural pool below..." />	
 	
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-<!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <link rel="shortcut icon" type="image/png" href="images/VIP-favicon.png"/>
 <link rel="apple-touch-icon" href="https://www.jacovip.com/images/icon-1.png">
-	
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+		
 <style>
 * {
   box-sizing: border-box;
@@ -93,7 +90,7 @@
 	
 <body id="JacoBeachToursCostaRica">
 	
-<div class="header_section">
+<div class="header_section" style="background-color: #000">
 	
                 <div class="row logo"  style="background-color: #252525">
 					<div class="col-sm-4 text-center"><a href="JacoBeachToursCostaRica.html"><img class="img-fluid" src="JacoVIP-CrownLogo.png" alt="crown JacoVIP logo link to tours page" width="97" height="91px" ></a> <a href="contact/index.php"><img class="img-fluid" style="padding-left: 20px" src="images/ClickHere.png" width="160px" height="80px" alt="Click here to Contact us" /></a></div>
@@ -103,24 +100,45 @@
                     </div>  
                 </div>
 	
-         <div id="site_mainmenu">
-            <nav class="navbar navbar-expand-md navbar-light" >
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="Charcoal">main menu</span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="JacoBeachVacationRentals.html" class="nav-item nav-link">Vacation Rentals</a>
-                        <a href="CostaRicaBachelorParty.html" class="nav-item nav-link">Bachelor Party</a>
-                        <a href="CostaRicaFishingCharters.html" class="nav-item nav-link">Fishing Charters</a>
-                        <a href="JacoBeachToursCostaRica.html" class="nav-item nav-link">Tours &amp; Day Trips</a>
-                        <a href="PartyLikeARockStar.html" class="nav-item nav-link">PartyLikeARockStar</a>
-                        <a href="costa-rica-vacation-services.html" class="nav-item nav-link">VIP Services</a>
-                    </div>
-                </div>
-            </nav>
-		</div>              
+    <div class="menu-wrap" >
+		
+      <input id="hamburger" type="checkbox" class="toggler">
+		<label for="hamburger">menu</label>		
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="JacoBeachVacationRentals.html" class="nav-item nav-link">Vacation Rentals</a></li>
+              <li><a href="CostaRicaBachelorParty.html" class="nav-item nav-link">Bachelor Party</a></li>
+              <li><a href="CostaRicaFishingCharters.html" class="nav-item nav-link">Fishing Charters</a> </li>
+              <li><a href="JacoBeachToursCostaRica.html" class="nav-item nav-link">Tours &amp; Day Trips</a></li>
+              <li><a href="PartyLikeARockStar.html" class="nav-item nav-link">PartyLikeARockStar</a></li>
+              <li><a href="costa-rica-vacation-services.html" class="nav-item nav-link">VIP Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 	
+	
+		<div id="site_mainmenu">
+					<nav class="navbar navbar-expand-md navbar-light">
+							<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="Charcoal"> main menu </span>
+									<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarCollapse">
+									<div class="navbar-nav">
+											<a href="JacoBeachVacationRentals.html" class="nav-item nav-link">Vacation Rentals</a>
+											<a href="CostaRicaBachelorParty.html" class="nav-item nav-link">Bachelor Party</a>
+											<a href="CostaRicaFishingCharters.html" class="nav-item nav-link">Fishing Charters</a>
+											<a href="JacoBeachToursCostaRica.html" class="nav-item nav-link active">Tours &amp; Day Trips</a>
+											<a href="PartyLikeARockStar.html" class="nav-item nav-link">PartyLikeARockStar</a>
+											<a href="costa-rica-vacation-services.html" class="nav-item nav-link">VIP Services</a>
+									</div>
+							</div>
+					</nav>
+	</div>	
 	      	
 				<picture>
   				<source media="(max-width: 599px)" srcset="images/atv-tours-jaco-costa-rica/4-hour-atv-jungle-and-waterfall-tour-mo.jpg">
@@ -146,21 +164,29 @@
 			.
 			<h2>Basic Details and Information about this excursion.</h2>
 			<hr>
-			<h3><i class="fa fa-map-marker SpeechRed" style="font-size: 36px"></i><span class="Charcoal"> Location:</span></h3>	
+			
+			<h3><span style="font-size: 36px"><strong>&#65284;</strong></span><span class="Charcoal"> Price:</span></h3>	
+			<ul>
+			<li>$ 120 / Person</li>
+			<li>Additional charge for larger vehicles.</li>
+			</ul>
+			
+			<h3><span style="font-size: 36px">&#128205;</span><span class="Charcoal"> Location:</span></h3>	
 			<ul>
 			<li>Starting location is 15 minutes from Jaco.</li>
-			<li>Transportation is included.</li>
-			</ul>	
+			<li>Transportation is included (Jaco, Hermosa &amp; Los Sueños).</li>
+			</ul>
 
-			<h3>⏰<span class="Charcoal"> Start Times:</span></h3>
+			<h3><span style="font-size: 36px">&#8986;</span><span class="Charcoal"> Start Times:</span></h3>
 			<ul>
 			<li>This is a PRIVATE Tour for your group only.</li>
 			<li>Schedule your start time between 8am and 1pm.</li>
 			<li>Total duration is approximately 4 hours. Including stops at waterfall etc.</li>
-			</ul>	
+			</ul>
 			
-			<h3>&#127890;<span class="Charcoal"> What to Bring:</span></h3>	
+			<h3><span style="font-size: 36px">&#127890;</span><span class="Charcoal"> What to Bring:</span></h3>	
 			<ul>
+			<li>A credit card <strong>(Visa or MasterCard Only)</strong> is required to place a damage deposit hold.</li>
 			<li>Wear running shoes (best option). <strong>Do Not wear open sandals or flip flops!</strong></li>
 			<li>Your shoes and clothes will get wet and dirty.</li>
 			<li>Comfortable jeans, pants, swimsuit or shorts.</li>
@@ -409,17 +435,11 @@
 			<div class="col-sm-6 text-left" style="padding-bottom: 12px"><img class="img-fluid" src="images/atv-tours-jaco-costa-rica/dirty-after-atv-tour.jpg" alt="Group of guys dirty after atv tour in costa rica" width="720px" height="480px"></div>
 		</div>
 	
-	
-	
-	
-	
-<div class="size2 bold blueline"><img class="img-fluid img-fluid1" src="images/BlueLine.jpg" alt="3 blue lines to separate section"></div>
-<hr>
         <div id="costarica_footer">
         	<div class="footer row text-center size3">
 				
     <div class="col-sm-12 text-center">	
-		
+		<p></p>
 		<div class="AliceBlue size4 text-center">Click for more photos, videos and stories :</div>
 		<p></p>
 		<div>
@@ -435,7 +455,7 @@
                  <p class="TangerineYellow mb-0">This is The Ultimate Costa Rica VIP Vacation Experience</p>
                  <p class="white mb-0"><span class="SkyBlue">TOLL FREE US# </span>800-676-0717 <span class="SkyBlue"> &#124; COSTA RICA OFFICE: </span>[506] 2643-6560 </p>
                  <p class="white"><span class="DodgerBlue"> Email:</span> info@jacovip.com <span class="DodgerBlue">&#124; Contact: </span><span class="AliceBlue">Send us <a href="contact/index.php"><span class="Orange bold text-dec">a message</span></a> to contact us.</span></p>
-                 <p class="size1 bold AliceBlue">&#8226;<span class="NavyBlue size1">&#8226;</span>&#8226;</p>
+		<p></p>
         	</div>
  
         </div>  
