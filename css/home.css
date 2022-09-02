@@ -1,0 +1,47 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+h1, h2, h3, h4, strong {
+    font-family: 'Kanit Medium', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 35px 10px 30px 10px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p, a, em, i {
+    font-family: 'Kanit Light', sans-serif;
+    font-size: 1.25rem;
+}
+
+p {
+    padding-inline: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+i {
+    font-size: 1.875rem;
+    min-width: 100%;
+    padding-top: 1.5rem;
+}
+
+.home-footer-link {
+    display: block;
+    margin-top: 1rem;
+}
+
+.home-center-quote {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+

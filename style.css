@@ -126,14 +126,7 @@
 .Purple{color: #84189B}
 
 
-@font-face {
-  font-family: "Roboto";
-  src: url("css/fonts/Roboto/Roboto-Black.ttf")
-}
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto", sans-serif;
-}
 
 
 
@@ -244,9 +237,9 @@ p{ line-height: normal;}
 
 #homepage #top_row1 .col-sm-8 p.BlizzardBlue.bold.text-center {     margin: 15px 0px;    padding: 15px 0px;}
 
-#homepage #top_row2 .col-sm-4 {padding-top: 15px;  padding-bottom: 15px;}
+#homepage #top_row2 .col-sm-4 {padding-top: 15px;  padding-bottom: 5px;}
 
-#homepage #top_row2_2 .col-sm-4 {padding-top: 15px;  padding-bottom: 15px;}
+#homepage #top_row2_2 .col-sm-4 {padding-top: 15px;  padding-bottom: 1px;}
 
 #homepage #top_row2 .col-sm-4.border-tb{ border-top: 2px solid #333333; border-bottom: 2px solid #333333;}
 
@@ -602,7 +595,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 
 /*jacovipadvantage*/
-.jacovip_advantage{ margin:0px; font-family: "Roboto", sans-serif; width: 100%; /*padding-bottom: 15px;*/float: left;}
+.jacovip_advantage{ margin:0px; font-family: "Verdana", sans-serif; width: 100%; /*padding-bottom: 15px;*/float: left;}
 
 .jacovip_advantage .content_area.bg{ background-color:#000000;}
 
@@ -903,7 +896,7 @@ body#PartyLikeARockStar {    width: 100%;    float: left;}
 
 #JacoBeachVacationRentals .toprow1 .AliceBlue{ margin: 15px 0px !important;     padding: 10px !important;}
 
-#JacoBeachVacationRentals .toprow2 .col-sm-5 {    padding: 10px 5px !important;}
+#JacoBeachVacationRentals .toprow2 .col-sm-5 {    padding: 10px 5px 0px 5px !important;}
 
 #JacoBeachVacationRentals .bottom1_rental_text {    padding: 10px !important;}
 
@@ -1110,7 +1103,57 @@ img {vertical-align: middle;}
 
 }
 
-
+/*Coconut page start*/
+#Coconut_page { width:100%; float:left;}
+#Coconut_page .Coconut{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
+#Coconut_page .row{ margin-left:0px; margin-right:0px;}
+#Coconut_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
+#Coconut_page .toprow_one .row1, #Coconut_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
+#Coconut_page .toprow_one {width: 100%;float: left;background: #000;}
+#Coconut_page .toprow_one .row1{background: #222230;}
+#Coconut_page .toprow_one .row2 div{padding-left: 10px;}
+#Coconut_page .toprow_one .row2 p {padding-left: 10px;margin-bottom: 1.3rem;}
+#Coconut_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
+#Coconut_page .main_content {    width: 100%;    float: left;}
+#Coconut_page .green_season, #Coconut_page .high_season, #Coconut_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
+#Coconut_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
+#Coconut_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
+#Coconut_page .main_content .season_box.row.two_box{width: 100%;float: left;background-color: #191922;border: 1px solid #808080; padding:0px;}
+#Coconut_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
+#Coconut_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
+#Coconut_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;} 
+#Coconut_page .main_content .pls_note div {    padding-left: 10px;}
+#Coconut_page .main_content .hr {    width: 100%;    float: left;}
+#Coconut_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
+#Coconut_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
+#Coconut_page .main_content .above_col .image_sec{ background-color: #222230;}
+#Coconut_page .footer_section {    width: 100%;    float: left;}
+#Coconut_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
+#Coconut_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
+#Coconut_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
+#Coconut_page .main_content .mid-text div {    margin-left:20px; } 
+#Coconut_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
+#Coconut_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
+#Coconut_page .main_content .details_txt div, #Coconut_page .main_content .details_txt p {    padding-left: 15px;}
+#Coconut_page .main_content .bed_text div, #Coconut_page .main_content .bed_text p {    padding-left: 15px;}
+#Coconut_page .main_content .bed_text {    width: 100%;    float: left;    margin-bottom: 15px;    padding: 10px 0px 10px 23px;}
+#Coconut_page .toprow_one .row.video,#Coconut_page .toprow_one .row2.video_blw {margin-bottom: 10px;width: 95%;    margin: 0 auto;    float: none;    border: 1px solid grey;}
+#Coconut_page .toprow_one .row.video .col-sm-8{border-right: 1px solid grey;padding: 10px 20px;}
+#Coconut_page .toprow_one .row.video .col-sm-4 {padding: 20px 10px;}
+#Coconut_page .toprow_one .row2 {
+    padding: 10px 50px 0px 50px;
+}
+#Coconut_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;} 
+#Coconut_page .toprow_one .row2 .sub_dev p, #Coconut_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
+@media screen and (max-width: 575px){
+#Coconut_page .toprow_one .row1, #Coconut_page .toprow_one .row2, #Coconut_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
+#Coconut_page .main_content .mid-text div {    margin-left: 0px !important;}
+#Coconut_page .main_content .pls_note,#Coconut_page .main_content .details_txt,#Coconut_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;} 
+#Coconut_page .toprow_one .row.video,#Coconut_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
+#Coconut_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;} 
+#Coconut_page .toprow_one .row2 .sub_dev p, #Coconut_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
+#Coconut_page .main_content .pls_note div {    padding-left: 0px;}
+}
 
 
 
@@ -1751,114 +1794,7 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #CieloAzul_page .main_content .mid-text div {    margin-left: 0px !important;}
 #CieloAzul_page .main_content .pls_note,#CieloAzul_page .main_content .details_txt,#CieloAzul_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
 }
-/*Dulce_Grande page start*/
-#Dulce_Grande_page { width:100%; float:left;}
-#Dulce_Grande_page .Dulce_Grande{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#Dulce_Grande_page .row{ margin-left:0px; margin-right:0px;}
-#Dulce_Grande_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#Dulce_Grande_page .toprow_one .row1, #Dulce_Grande_page .toprow_one .row2, #Dulce_Grande_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#Dulce_Grande_page .toprow_one {width: 100%;float: left;background: #000;}
-#Dulce_Grande_page .toprow_one .row1{background: #191922;}
-#Dulce_Grande_page .toprow_one .row2 div{padding-left: 10px;}
-#Dulce_Grande_page .toprow_one .row2 p {padding-left: 10px;margin-bottom: 1.3rem;}
-#Dulce_Grande_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#Dulce_Grande_page .main_content {    width: 100%;    float: left;}
-#Dulce_Grande_page .green_season, #Dulce_Grande_page .high_season, #Dulce_Grande_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#Dulce_Grande_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#Dulce_Grande_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Dulce_Grande_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#Dulce_Grande_page .main_content .pls_note div {    padding-left: 10px;}
-#Dulce_Grande_page .main_content .hr {    width: 100%;    float: left;}
-#Dulce_Grande_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
-#Dulce_Grande_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#Dulce_Grande_page .main_content .above_col .image_sec{ background-color: #191922;}
-#Dulce_Grande_page .footer_section {    width: 100%;    float: left;}
-#Dulce_Grande_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#Dulce_Grande_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#Dulce_Grande_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Dulce_Grande_page .main_content .mid-text div {    margin-left:20px; }
-#Dulce_Grande_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#Dulce_Grande_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#Dulce_Grande_page .main_content .details_txt div, #Dulce_Grande_page .main_content .details_txt p {    padding-left: 15px;}
-#Dulce_Grande_page .main_content .bed_text div, #Dulce_Grande_page .main_content .bed_text p {    padding-left: 15px;}
-#Dulce_Grande_page .main_content .bed_text {    width: 100%;    float: left;    margin-bottom: 15px;    padding: 10px 0px 10px 23px;}
-@media screen and (max-width: 575px){
-#Dulce_Grande_page .toprow_one .row1, #Dulce_Grande_page .toprow_one .row2, #Dulce_Grande_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
-#Dulce_Grande_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Dulce_Grande_page .main_content .pls_note,#Dulce_Grande_page .main_content .details_txt,#Dulce_Grande_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
-}
-/*LaTropicana page start*/
-#LaTropicana_page { width:100%; float:left;}
-#LaTropicana_page .LaTropicana{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#LaTropicana_page .row{ margin-left:0px; margin-right:0px;}
-#LaTropicana_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#LaTropicana_page .toprow_one .row1, #LaTropicana_page .toprow_one .row2, #LaTropicana_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#LaTropicana_page .toprow_one {width: 100%;float: left;background: #000;}
-#LaTropicana_page .toprow_one .row1{background: #191922;}
-#LaTropicana_page .toprow_one .row2 div{padding-left: 10px;}
-#LaTropicana_page .toprow_one .row2 p {padding-left: 10px;margin-bottom: 1.3rem;}
-#LaTropicana_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#LaTropicana_page .main_content {    width: 100%;    float: left;}
-#LaTropicana_page .green_season, #LaTropicana_page .high_season, #LaTropicana_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#LaTropicana_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#LaTropicana_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#LaTropicana_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#LaTropicana_page .main_content .pls_note div {    padding-left: 10px;}
-#LaTropicana_page .main_content .hr {    width: 100%;    float: left;}
-#LaTropicana_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
-#LaTropicana_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#LaTropicana_page .main_content .above_col .image_sec{ background-color: #191922;}
-#LaTropicana_page .footer_section {    width: 100%;    float: left;}
-#LaTropicana_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#LaTropicana_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#LaTropicana_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#LaTropicana_page .main_content .mid-text div {    margin-left:20px; }
-#LaTropicana_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#LaTropicana_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#LaTropicana_page .main_content .details_txt div, #LaTropicana_page .main_content .details_txt p {    padding-left: 15px;}
-#LaTropicana_page .main_content .bed_text div, #LaTropicana_page .main_content .bed_text p {    padding-left: 15px;}
-#LaTropicana_page .main_content .bed_text {    width: 100%;    float: left;    margin-bottom: 15px;    padding: 10px 0px 10px 23px;}
-@media screen and (max-width: 575px){
-#LaTropicana_page .toprow_one .row1, #LaTropicana_page .toprow_one .row2, #LaTropicana_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
-#LaTropicana_page .main_content .mid-text div {    margin-left: 0px !important;}
-#LaTropicana_page .main_content .pls_note,#LaTropicana_page .main_content .details_txt,#LaTropicana_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
-}
-/*DulceSol page start*/
-#DulceSol_page { width:100%; float:left;}
-#DulceSol_page .DulceSol{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#DulceSol_page .row{ margin-left:0px; margin-right:0px;}
-#DulceSol_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#DulceSol_page .toprow_one .row1, #DulceSol_page .toprow_one .row2, #DulceSol_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#DulceSol_page .toprow_one {width: 100%;float: left;background: #000;}
-#DulceSol_page .toprow_one .row1{background: #191922;}
-#DulceSol_page .toprow_one .row2 div{padding-left: 10px;}
-#DulceSol_page .toprow_one .row2 p {padding-left: 10px;margin-bottom: 1.3rem;}
-#DulceSol_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#DulceSol_page .main_content {    width: 100%;    float: left;}
-#DulceSol_page .green_season, #DulceSol_page .high_season, #DulceSol_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#DulceSol_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#DulceSol_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#DulceSol_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#DulceSol_page .main_content .pls_note div {    padding-left: 10px;}
-#DulceSol_page .main_content .hr {    width: 100%;    float: left;}
-#DulceSol_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
-#DulceSol_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#DulceSol_page .main_content .above_col .image_sec{ background-color: #191922;}
-#DulceSol_page .footer_section {    width: 100%;    float: left;}
-#DulceSol_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#DulceSol_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#DulceSol_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#DulceSol_page .main_content .mid-text div {    margin-left:20px; }
-#DulceSol_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#DulceSol_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#DulceSol_page .main_content .details_txt div, #DulceSol_page .main_content .details_txt p {    padding-left: 15px;}
-#DulceSol_page .main_content .bed_text div, #DulceSol_page .main_content .bed_text p {    padding-left: 15px;}
-#DulceSol_page .main_content .bed_text {    width: 100%;    float: left;    margin-bottom: 15px;    padding: 10px 0px 10px 23px;}
-@media screen and (max-width: 575px){
-#DulceSol_page .toprow_one .row1, #DulceSol_page .toprow_one .row2, #DulceSol_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
-#DulceSol_page .main_content .mid-text div {    margin-left: 0px !important;}
-#DulceSol_page .main_content .pls_note,#DulceSol_page .main_content .details_txt,#DulceSol_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
-}
+
 /*Villa-Sea-Esta-Jaco page start*/
 #Villa-Sea-Esta-Jaco_page { width:100%; float:left;}
 #Villa-Sea-Esta-Jaco_page .Villa-Sea-Esta-Jaco{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
@@ -2099,58 +2035,6 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 /*CasaCinco page end*/
 
 
-/*Coconut page start*/
-#Coconut_page { width:100%; float:left;}
-#Coconut_page .Coconut{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#Coconut_page .row{ margin-left:0px; margin-right:0px;}
-#Coconut_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#Coconut_page .toprow_one .row1, #Coconut_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#Coconut_page .toprow_one {width: 100%;float: left;background: #000;}
-#Coconut_page .toprow_one .row1{background: #222230;}
-#Coconut_page .toprow_one .row2 div{padding-left: 10px;}
-#Coconut_page .toprow_one .row2 p {padding-left: 10px;margin-bottom: 1.3rem;}
-#Coconut_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#Coconut_page .main_content {    width: 100%;    float: left;}
-#Coconut_page .green_season, #Coconut_page .high_season, #Coconut_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#Coconut_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#Coconut_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Coconut_page .main_content .season_box.row.two_box{width: 100%;float: left;background-color: #191922;border: 1px solid #808080; padding:0px;}
-#Coconut_page .main_content .season_box.row.two_box .b_right{ border-right:1px solid #808080;}
-#Coconut_page .main_content .season_box.row.two_box .col-sm-6{padding-top: 15px;    padding-bottom: 15px;}
-#Coconut_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#Coconut_page .main_content .pls_note div {    padding-left: 10px;}
-#Coconut_page .main_content .hr {    width: 100%;    float: left;}
-#Coconut_page .main_content .details_txt {width: 100%;float: left;margin-bottom: 15px;padding: 10px 0px 10px 23px;}
-#Coconut_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#Coconut_page .main_content .above_col .image_sec{ background-color: #222230;}
-#Coconut_page .footer_section {    width: 100%;    float: left;}
-#Coconut_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#Coconut_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#Coconut_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Coconut_page .main_content .mid-text div {    margin-left:20px; }
-#Coconut_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#Coconut_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#Coconut_page .main_content .details_txt div, #Coconut_page .main_content .details_txt p {    padding-left: 15px;}
-#Coconut_page .main_content .bed_text div, #Coconut_page .main_content .bed_text p {    padding-left: 15px;}
-#Coconut_page .main_content .bed_text {    width: 100%;    float: left;    margin-bottom: 15px;    padding: 10px 0px 10px 23px;}
-#Coconut_page .toprow_one .row.video,#Coconut_page .toprow_one .row2.video_blw {margin-bottom: 10px;width: 95%;    margin: 0 auto;    float: none;    border: 1px solid grey;}
-#Coconut_page .toprow_one .row.video .col-sm-8{border-right: 1px solid grey;padding: 10px 20px;}
-#Coconut_page .toprow_one .row.video .col-sm-4 {padding: 20px 10px;}
-#Coconut_page .toprow_one .row2 {
-    padding: 10px 50px 0px 50px;
-}
-#Coconut_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
-#Coconut_page .toprow_one .row2 .sub_dev p, #Coconut_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
-@media screen and (max-width: 575px){
-#Coconut_page .toprow_one .row1, #Coconut_page .toprow_one .row2, #Coconut_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
-#Coconut_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Coconut_page .main_content .pls_note,#Coconut_page .main_content .details_txt,#Coconut_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
-#Coconut_page .toprow_one .row.video,#Coconut_page .toprow_one .row2.video_blw {    width: 100%; float:left;}
-#Coconut_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
-#Coconut_page .toprow_one .row2 .sub_dev p, #Coconut_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
-#Coconut_page .main_content .pls_note div {    padding-left: 0px;}
-}
-/*JacoOasis page end*/
 
 
 
@@ -2200,48 +2084,6 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 #SerenityPoint_page .toprow_one .row2 .sub_dev p, #SerenityPoint_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
 }
 /*SerenityPoint page end*/
-
-
-/*CasaMiroBajo page start*/
-#casamirobajo_page { width:100%; float:left;}
-#casamirobajo_page .casamirobajo{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#casamirobajo_page .row{ margin-left:0px; margin-right:0px;}
-#casamirobajo_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#casamirobajo_page .toprow_one .row1, #casamirobajo_page .toprow_one .row2, #casamirobajo_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#casamirobajo_page .toprow_one {width: 100%;float: left;background: #000;}
-#casamirobajo_page .toprow_one .row1{background: #191922;}
-#casamirobajo_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#casamirobajo_page .main_content {    width: 100%;    float: left;}
-#casamirobajo_page .green_season, #casamirobajo_page .high_season, #casamirobajo_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#casamirobajo_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#casamirobajo_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#casamirobajo_page .main_content .pls_note {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#casamirobajo_page .main_content .pls_note div {    padding-left: 10px;}
-#casamirobajo_page .main_content .hr {    width: 100%;    float: left;}
-#casamirobajo_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
-#casamirobajo_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#casamirobajo_page .main_content .above_col .image_sec{ background-color: #191922;}
-#casamirobajo_page .footer_section {    width: 100%;    float: left;}
-#casamirobajo_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#casamirobajo_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#casamirobajo_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#casamirobajo_page .main_content .mid-text div {    margin-left:20px; }
-#casamirobajo_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#casamirobajo_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#casamirobajo_page .main_content .details_txt div, #casamirobajo_page .main_content .details_txt p {    padding-left: 15px;}
-#casamirobajo_page .main_content .bed_text div, #casamirobajo_page .main_content .bed_text p {    padding-left: 15px;}
-#casamirobajo_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#casamirobajo_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
-#casamirobajo_page .toprow_one .row2 .sub_dev p {    padding-left: 10px;}
-@media screen and (max-width: 575px){
-#casamirobajo_page .toprow_one .row1, #casamirobajo_page .toprow_one .row2, #casamirobajo_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
-#casamirobajo_page .main_content .mid-text div {    margin-left: 0px !important;}
-#casamirobajo_page .main_content .pls_note,#casamirobajo_page .main_content .details_txt,#casamirobajo_page .main_content .bed_text {    float: left;    width: 100%; padding: 10px 0px;}
-#casamirobajo_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
-#casamirobajo_page .toprow_one .row2 .sub_dev p {    padding-left: 0px;}
-}
-/*CasaMiroBajo page end*/
-
 
 /*BlueMacaw page start*/
 #BlueMacaw_page { width:100%; float:left;}
@@ -2324,46 +2166,6 @@ body#casaponte_costarica {background-color: #000000 !important;/* background-ima
 }
 /*LaPalma page end*/
 
-
-/*Casa_Dulce_Beach_House page start*/
-#Casa_Dulce_Beach_House_page { width:100%; float:left;}
-#Casa_Dulce_Beach_House_page .Casa_Dulce_Beach_House{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#Casa_Dulce_Beach_House_page .row{ margin-left:0px; margin-right:0px;}
-#Casa_Dulce_Beach_House_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#Casa_Dulce_Beach_House_page .toprow_one .row1, #Casa_Dulce_Beach_House_page .toprow_one .row2, #Casa_Dulce_Beach_House_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#Casa_Dulce_Beach_House_page .toprow_one {width: 100%;float: left;background: #000;}
-#Casa_Dulce_Beach_House_page .toprow_one .row1{background: #191922;}
-#Casa_Dulce_Beach_House_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#Casa_Dulce_Beach_House_page .main_content {    width: 100%;    float: left;}
-#Casa_Dulce_Beach_House_page .green_season, #Casa_Dulce_Beach_House_page .high_season, #Casa_Dulce_Beach_House_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#Casa_Dulce_Beach_House_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#Casa_Dulce_Beach_House_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#Casa_Dulce_Beach_House_page .main_content .pls_note, #Casa_Dulce_Beach_House_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#Casa_Dulce_Beach_House_page .main_content .pls_note div, #Casa_Dulce_Beach_House_page .main_content .special_box div {    padding-left: 10px;}
-#Casa_Dulce_Beach_House_page .main_content .hr {    width: 100%;    float: left;}
-#Casa_Dulce_Beach_House_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
-#Casa_Dulce_Beach_House_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#Casa_Dulce_Beach_House_page .main_content .above_col .image_sec{ background-color: #191922;}
-#Casa_Dulce_Beach_House_page .footer_section {    width: 100%;    float: left;}
-#Casa_Dulce_Beach_House_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#Casa_Dulce_Beach_House_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#Casa_Dulce_Beach_House_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#Casa_Dulce_Beach_House_page .main_content .mid-text div {    margin-left:20px; }
-#Casa_Dulce_Beach_House_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#Casa_Dulce_Beach_House_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#Casa_Dulce_Beach_House_page .main_content .details_txt div, #Casa_Dulce_Beach_House_page .main_content .details_txt p {    padding-left: 15px;}
-#Casa_Dulce_Beach_House_page .main_content .bed_text div, #Casa_Dulce_Beach_House_page .main_content .bed_text p {    padding-left: 15px;}
-#Casa_Dulce_Beach_House_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
-#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev p, #Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
-@media screen and (max-width: 575px){
-#Casa_Dulce_Beach_House_page .toprow_one .row1, #Casa_Dulce_Beach_House_page .toprow_one .row2, #Casa_Dulce_Beach_House_page .toprow_one .row3 {    padding: 10px 0px 0px 20px !important;}
-#Casa_Dulce_Beach_House_page .main_content .mid-text div {    margin-left: 0px !important;}
-#Casa_Dulce_Beach_House_page .main_content .pls_note,#Casa_Dulce_Beach_House_page .main_content .details_txt,#Casa_Dulce_Beach_House_page .main_content .bed_text, #Casa_Dulce_Beach_House_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px;}
-#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev {    width: 100%;    float: left;}
-#Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev p, #Casa_Dulce_Beach_House_page .toprow_one .row2 .sub_dev div {    padding-left: 0px;}
-}
-/*Casa_Dulce_Beach_House page end*/
 
 
 /*PacificPalms page start*/
@@ -3821,6 +3623,7 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 #SpecialOffers_page .table_text .discount_des {    background: #cc0000;    padding: 3px;    border: 1px solid #808080;}
 #SpecialOffers_page .footer_menu{ margin-bottom:10px;}
 /*SpecialOffers_page end*/
+
 /*VistaMarCondo_5D_page_start*/
 #VistaMarCondo_5D_page { width:100%; float:left;}
 #VistaMarCondo_5D_page .VistaMarCondo_5D{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
@@ -3854,133 +3657,3 @@ ol.carousel-indicators {background-color: rgba(29, 26, 26, 0.5);    padding: 10p
 /*VistaMarCondo_5D_page_end*/
 
 
-/*MardiGras4Plex_page_start*/
-#MardiGras4Plex_page { width:100%; float:left;}
-#MardiGras4Plex_page .MardiGras4Plex{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#MardiGras4Plex_page .row{ margin-left:0px; margin-right:0px;}
-#MardiGras4Plex_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#MardiGras4Plex_page .toprow_one .row1, #MardiGras4Plex_page .toprow_one .row2, #MardiGras4Plex_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#MardiGras4Plex_page .toprow_one {width: 100%;float: left;background: #000;}
-#MardiGras4Plex_page .toprow_one .row1{background: #191922;}
-#MardiGras4Plex_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#MardiGras4Plex_page .main_content {    width: 100%;    float: left;}
-#MardiGras4Plex_page .green_season, #MardiGras4Plex_page .high_season, #MardiGras4Plex_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#MardiGras4Plex_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#MardiGras4Plex_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922;padding: 15px 0px;border: 1px solid #808080;}
-#MardiGras4Plex_page .main_content .pls_note, #MardiGras4Plex_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#MardiGras4Plex_page .main_content .pls_note div, #MardiGras4Plex_page .main_content .special_box div {    padding-left: 10px;}
-#MardiGras4Plex_page .main_content .hr {    width: 100%;    float: left;}
-#MardiGras4Plex_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
-#MardiGras4Plex_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#MardiGras4Plex_page .main_content .above_col .image_sec{ background-color: #191922;}
-#MardiGras4Plex_page .footer_section {    width: 100%;    float: left;}
-#MardiGras4Plex_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#MardiGras4Plex_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#MardiGras4Plex_page .main_content .mid-text { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#MardiGras4Plex_page .main_content .mid-text div {    margin-left:20px; }
-#MardiGras4Plex_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#MardiGras4Plex_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#MardiGras4Plex_page .main_content .details_txt div, #MardiGras4Plex_page .main_content .details_txt p {    padding-left: 15px;}
-#MardiGras4Plex_page .main_content .bed_text div, #MardiGras4Plex_page .main_content .bed_text p {    padding-left: 15px;}
-#MardiGras4Plex_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#MardiGras4Plex_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
-#MardiGras4Plex_page .toprow_one .row2 .sub_dev p, #MardiGras4Plex_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
-/*MardiGras4Plex_page_end*/
-
-
-/*SeaBreezeVilla_page start*/
-#SeaBreezeVilla_page { width:100%; float:left;}
-#SeaBreezeVilla_page .SeaBreezeVilla{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#SeaBreezeVilla_page .row{ margin-left:0px; margin-right:0px;}
-#SeaBreezeVilla_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#SeaBreezeVilla_page .toprow_one .row1, #SeaBreezeVilla_page .toprow_one .row2, #SeaBreezeVilla_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#SeaBreezeVilla_page .toprow_one {width: 100%;float: left;background: #000;}
-#SeaBreezeVilla_page .toprow_one .row1{background: #191922;}
-#SeaBreezeVilla_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#SeaBreezeVilla_page .main_content {    width: 100%;    float: left;}
-#SeaBreezeVilla_page .green_season, #SeaBreezeVilla_page .high_season, #SeaBreezeVilla_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#SeaBreezeVilla_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#SeaBreezeVilla_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922; border: 1px solid #808080; }
-#SeaBreezeVilla_page .main_content .pls_note, #SeaBreezeVilla_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#SeaBreezeVilla_page .main_content .pls_note div, #SeaBreezeVilla_page .main_content .special_box div {    padding-left: 10px;}
-#SeaBreezeVilla_page .main_content .hr {    width: 100%;    float: left;}
-#SeaBreezeVilla_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
-#SeaBreezeVilla_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#SeaBreezeVilla_page .main_content .above_col .image_sec{ background-color: #191922;}
-#SeaBreezeVilla_page .footer_section {    width: 100%;    float: left;}
-#SeaBreezeVilla_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#SeaBreezeVilla_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#SeaBreezeVilla_page .mid-text.size2 { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#SeaBreezeVilla_page .main_content .mid-text div {    margin-left:20px; }
-#SeaBreezeVilla_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#SeaBreezeVilla_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#SeaBreezeVilla_page .main_content .details_txt div, #SeaBreezeVilla_page .main_content .details_txt p {    padding-left: 15px;}
-#SeaBreezeVilla_page .main_content .bed_text div, #SeaBreezeVilla_page .main_content .bed_text p {    padding-left: 15px;}
-#SeaBreezeVilla_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#SeaBreezeVilla_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
-#SeaBreezeVilla_page .toprow_one .row2 .sub_dev p, #SeaBreezeVilla_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
-#SeaBreezeVilla_page .main_content .season_box.row .col-sm-12.bold,  .season_box.row.two_box .col-sm-6.bold, #SeaBreezeVilla_page .col-sm-4.bold{ padding: 15px 15px;}
-@media screen and (min-width:601px){
-#SeaBreezeVilla_page .main_content .season_box.row.three_box .col-sm-4.bold {border-right: 1px solid #808080;}
-#SeaBreezeVilla_page .main_content .b_right.col-sm-4.bold, .season_box.row.two_box .b_right.col-sm-6.bold{ padding: 15px 15px; border-right: 1px solid #808080;}
-}
-@media screen and (max-width:600px){
-#SeaBreezeVilla_page .main_content .season_box.row.three_box .col-sm-4.bold{
-    border-bottom: 1px solid #808080;
-    text-align: center;}
-#SeaBreezeVilla_page .main_content .b_right.col-sm-4.bold, .season_box.row.two_box .b_right.col-sm-6.bold{
-    padding: 15px 15px;
-    border-bottom: 1px solid #808080; text-align:center;
-}
-#SeaBreezeVilla_page .main_content .season_box.row.two_box .col-sm-6.bold, #SeaBreezeVilla_page .main_content .season_box.row .col-sm-12.bold {text-align:center;}
-}
-/*SeaBreezeVilla_page end*/
-
-
-/*VillaTranquilaMar_page start*/
-#VillaTranquilaMar_page { width:100%; float:left;}
-#VillaTranquilaMar_page .VillaTranquilaMar{ width:100%; float:left; background-color:#000; font-family: Verdana, Geneva, sans-serif;}
-#VillaTranquilaMar_page .row{ margin-left:0px; margin-right:0px;}
-#VillaTranquilaMar_page .slider_img {text-align: center;padding: 10px 0px;background-color: #191922;}
-#VillaTranquilaMar_page .toprow_one .row1, #VillaTranquilaMar_page .toprow_one .row2, #VillaTranquilaMar_page .toprow_one .row3{padding: 10px 50px 0px 50px;}
-#VillaTranquilaMar_page .toprow_one {width: 100%;float: left;background: #000;}
-#VillaTranquilaMar_page .toprow_one .row1{background: #191922;}
-#VillaTranquilaMar_page .toprow_one .row3 p{margin-bottom: 1.3rem;}
-#VillaTranquilaMar_page .main_content {    width: 100%;    float: left;}
-#VillaTranquilaMar_page .green_season, #VillaTranquilaMar_page .high_season, #VillaTranquilaMar_page .peak_season{width: 100%;float: left;padding: 10px 15px;background-color: #002244;margin-bottom: 20px;}
-#VillaTranquilaMar_page .main_content .casa_title {width: 100%;background: #191922;margin-top: 20px;float: left;}
-#VillaTranquilaMar_page .main_content .season_box.row {width: 100%;float: left;background-color: #191922; border: 1px solid #808080; }
-#VillaTranquilaMar_page .main_content .pls_note, #VillaTranquilaMar_page .main_content .special_box {    float: left;    width: 100%; padding: 10px 0px 10px 23px;}
-#VillaTranquilaMar_page .main_content .pls_note div, #VillaTranquilaMar_page .main_content .special_box div {    padding-left: 10px;}
-#VillaTranquilaMar_page .main_content .hr {    width: 100%;    float: left;}
-#VillaTranquilaMar_page .main_content .details_txt {width: 100%;float: left;padding: 10px 0px 10px 23px;}
-#VillaTranquilaMar_page .main_content .above_col{width: 95%;    float: none;    margin: 0 auto;}
-#VillaTranquilaMar_page .main_content .above_col .image_sec{ background-color: #191922;}
-#VillaTranquilaMar_page .footer_section {    width: 100%;    float: left;}
-#VillaTranquilaMar_page .footer_menu {width: 100%;float: left;padding: 10px 0px;background-color: #191922;margin-bottom: 15px;}
-#VillaTranquilaMar_page .footer_section .bottom_logo .logo_text {    padding-top: 10px;    margin-top: 10px;}
-#VillaTranquilaMar_page .mid-text.size2 { padding: 20px 5px 20px 30px;    background-color: #191922;}
-#VillaTranquilaMar_page .main_content .mid-text div {    margin-left:20px; }
-#VillaTranquilaMar_page .main_content .row.image_rows { width: 95%;    float: none;    margin: 0 auto;    background-color: #191922;}
-#VillaTranquilaMar_page .main_content .row.image_rows .col-sm-6 {    margin: 12px 0px; }
-#VillaTranquilaMar_page .main_content .details_txt div, #VillaTranquilaMar_page .main_content .details_txt p {    padding-left: 15px;}
-#VillaTranquilaMar_page .main_content .bed_text div, #VillaTranquilaMar_page .main_content .bed_text p {    padding-left: 15px;}
-#VillaTranquilaMar_page .main_content .bed_text {    width: 100%;    float: left;	padding: 10px 0px 10px 23px;}
-#VillaTranquilaMar_page .toprow_one .row2 .sub_dev {    width: 95%;    float: none;    margin: 0 auto;}
-#VillaTranquilaMar_page .toprow_one .row2 .sub_dev p, #VillaTranquilaMar_page .toprow_one .row2 .sub_dev div {    padding-left: 10px;}
-#VillaTranquilaMar_page .main_content .season_box.row .col-sm-12.bold,  .season_box.row.two_box .col-sm-6.bold, #VillaTranquilaMar_page .col-sm-4.bold{ padding: 15px 15px;}
-@media screen and (min-width:601px){
-#VillaTranquilaMar_page .main_content .season_box.row.three_box .col-sm-4.bold {border-right: 1px solid #808080;}
-#VillaTranquilaMar_page .main_content .b_right.col-sm-4.bold, .season_box.row.two_box .b_right.col-sm-6.bold{ padding: 15px 15px; border-right: 1px solid #808080;}
-}
-@media screen and (max-width:600px){
-#VillaTranquilaMar_page .main_content .season_box.row.three_box .col-sm-4.bold{
-    border-bottom: 1px solid #808080;
-    text-align: center;}
-#VillaTranquilaMar_page .main_content .b_right.col-sm-4.bold, .season_box.row.two_box .b_right.col-sm-6.bold{
-    padding: 15px 15px;
-    border-bottom: 1px solid #808080; text-align:center;
-}
-#VillaTranquilaMar_page .main_content .season_box.row.two_box .col-sm-6.bold, #VillaTranquilaMar_page .main_content .season_box.row .col-sm-12.bold {text-align:center;}
-}
-/*VillaTranquilaMar_page end*/
